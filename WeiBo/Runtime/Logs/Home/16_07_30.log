@@ -1,0 +1,156 @@
+[ 2016-07-30T23:03:27+08:00 ] 127.0.0.1 /
+ERR: 水印图像不存在
+
+[ 2016-07-30T23:07:41+08:00 ] 127.0.0.1 /
+ERR: 不存在的字体文件：consola.ttf
+
+[ 2016-07-30T23:11:54+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2016-07-30T23:11:54+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2016-07-30T23:12:47+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:13:36+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:14:08+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:14:08+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:14:20+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:14:21+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:15:00+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:15:01+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:15:32+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:15:47+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:15:48+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:15:53+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:16:03+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:16:05+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:16:06+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:16:07+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:16:16+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:16:16+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:17:04+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:17:25+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:17:59+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:07+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:08+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:30+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:31+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:43+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:48+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:49+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:53+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:19:54+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:20:00+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:20:00+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:20:12+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:20:13+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:20:36+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:47:26+08:00 ] 127.0.0.1 /test?code=mb12
+ERR: Think\Controller:authcode方法不存在！
+
+[ 2016-07-30T23:49:18+08:00 ] 127.0.0.1 /user/1
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-30T23:49:49+08:00 ] 127.0.0.1 /vendor/twbs/bootstrap/dist/css/bootstrap.min.css
+ERR: 非法操作:twbs
+
+[ 2016-07-30T23:49:49+08:00 ] 127.0.0.1 /vendor/twbs/bootstrap/dist/js/bootstrap.min.js
+ERR: 非法操作:twbs
+
+[ 2016-07-30T23:49:49+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: 非法操作:components
+
+[ 2016-07-30T23:59:42+08:00 ] 127.0.0.1 /user/user/upload
+ERR: 1062:Duplicate entry 'he@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`email`) VALUES ('he@bluestone.com')
+

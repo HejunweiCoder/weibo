@@ -1,0 +1,8 @@
+[ 2016-08-01T17:20:04+08:00 ] 127.0.0.1 /login
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `users` WHERE ( username=admin ) LIMIT 1  
+
+[ 2016-08-01T17:20:48+08:00 ] 127.0.0.1 /login
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'post.username').' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `users` WHERE ( username='.I('post.username').' ) LIMIT 1  
+

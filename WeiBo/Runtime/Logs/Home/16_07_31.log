@@ -1,0 +1,200 @@
+[ 2016-07-31T00:00:39+08:00 ] 127.0.0.1 /user/user/upload
+ERR: 1062:Duplicate entry 'he-he@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('he','he@bluestone.com')
+
+[ 2016-07-31T00:00:58+08:00 ] 127.0.0.1 /user/user/upload
+ERR: 1062:Duplicate entry 'he-he@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('he','he@bluestone.com')
+
+[ 2016-07-31T00:01:02+08:00 ] 127.0.0.1 /user/user/upload
+ERR: 1062:Duplicate entry 'he-he@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('he','he@bluestone.com')
+
+[ 2016-07-31T00:01:14+08:00 ] 127.0.0.1 /user/user/upload
+ERR: 1062:Duplicate entry 'he-he@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('he','he@bluestone.com')
+
+[ 2016-07-31T00:01:28+08:00 ] 127.0.0.1 /user/upload
+ERR: 1062:Duplicate entry 'he-he@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('he','he@bluestone.com')
+
+[ 2016-07-31T00:01:37+08:00 ] 127.0.0.1 /user/upload
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-31T00:02:18+08:00 ] 127.0.0.1 /user/upload
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-31T00:02:19+08:00 ] 127.0.0.1 /user/upload
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-31T00:02:24+08:00 ] 127.0.0.1 /user/upload
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-31T00:02:52+08:00 ] 127.0.0.1 /user/upload
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-31T00:03:21+08:00 ] 127.0.0.1 /user/upload
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-31T00:24:29+08:00 ] 127.0.0.1 /user/1
+ERR: 非法操作:1
+
+[ 2016-07-31T00:24:32+08:00 ] 127.0.0.1 /user/2
+ERR: 非法操作:2
+
+[ 2016-07-31T00:24:40+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:25:09+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:25:10+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:25:21+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:25:22+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:26:34+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:26:35+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:26:35+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:26:47+08:00 ] 127.0.0.1 /user/3
+ERR: 非法操作:3
+
+[ 2016-07-31T00:26:59+08:00 ] 127.0.0.1 /user/id/3
+ERR: 非法操作:id
+
+[ 2016-07-31T00:27:07+08:00 ] 127.0.0.1 /user/1
+ERR: 非法操作:1
+
+[ 2016-07-31T00:32:10+08:00 ] 127.0.0.1 /user/1
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-31T00:32:55+08:00 ] 127.0.0.1 /user/2
+ERR: 1146:Table 'thinkphp.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2016-07-31T00:36:33+08:00 ] 127.0.0.1 /user/upload
+ERR: 1062:Duplicate entry 'he-he@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('he','he@bluestone.com')
+
+[ 2016-07-31T00:37:15+08:00 ] 127.0.0.1 /user/store
+ERR: 1062:Duplicate entry 'he-he@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('he','he@bluestone.com')
+
+[ 2016-07-31T11:46:00+08:00 ] 127.0.0.1 /Public/css/bootstrap.min.css
+ERR: Illegal Action:css
+
+[ 2016-07-31T11:46:00+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: Illegal Action:components
+
+[ 2016-07-31T11:46:00+08:00 ] 127.0.0.1 /Public/js/bootstrap.min.js
+ERR: Illegal Action:js
+
+[ 2016-07-31T11:46:56+08:00 ] 127.0.0.1 /Public/css/bootstrap.min.css
+ERR: Illegal Action:css
+
+[ 2016-07-31T11:46:56+08:00 ] 127.0.0.1 /Public/js/bootstrap.min.js
+ERR: Illegal Action:js
+
+[ 2016-07-31T11:46:56+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: Illegal Action:components
+
+[ 2016-07-31T11:47:03+08:00 ] 127.0.0.1 /Public/css/bootstrap.min.css
+ERR: Illegal Action:css
+
+[ 2016-07-31T11:47:03+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: Illegal Action:components
+
+[ 2016-07-31T11:47:03+08:00 ] 127.0.0.1 /Public/js/bootstrap.min.js
+ERR: Illegal Action:js
+
+[ 2016-07-31T11:47:12+08:00 ] 127.0.0.1 /Public/css/bootstrap.min.css
+ERR: Illegal Action:css
+
+[ 2016-07-31T11:47:12+08:00 ] 127.0.0.1 /Public/js/bootstrap.min.js
+ERR: Illegal Action:js
+
+[ 2016-07-31T11:47:12+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: Illegal Action:components
+
+[ 2016-07-31T11:47:34+08:00 ] 127.0.0.1 /Public/js/bootstrap.min.js
+ERR: Illegal Action:js
+
+[ 2016-07-31T11:47:34+08:00 ] 127.0.0.1 /Public/css/bootstrap.min.css
+ERR: Illegal Action:css
+
+[ 2016-07-31T11:47:34+08:00 ] 127.0.0.1 /vendor/components/jquery/jquery.min.js
+ERR: Illegal Action:components
+
+[ 2016-07-31T22:22:33+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.post' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `post`
+
+[ 2016-07-31T22:35:20+08:00 ] 127.0.0.1 /user
+ERR: 1146:Table 'thinkphp.post' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `post`
+
+[ 2016-07-31T23:04:14+08:00 ] 127.0.0.1 /user/1/edit
+ERR: 1054:Unknown column 'tag_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `posts` WHERE ( 1=1 AND tag_id='1' ) 
+
+[ 2016-07-31T23:08:07+08:00 ] 127.0.0.1 /user/store
+ERR: 1054:Unknown column 'date' in 'field list'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`,`date`) VALUES ('hejunwei','hejunwei@bluestone.com','2016-07-31 23:31:07')
+
+[ 2016-07-31T23:10:49+08:00 ] 127.0.0.1 /user
+ERR: 1062:Duplicate entry 'hejunwei-hejunwei@bluestone.com' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`,`created`) VALUES ('hejunwei','hejunwei@bluestone.com','2016-07-31 23:31:49')
+
+[ 2016-07-31T23:11:34+08:00 ] 127.0.0.1 /user/1
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 1
+
+[ 2016-07-31T23:12:24+08:00 ] 127.0.0.1 /user/1
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 1
+
+[ 2016-07-31T23:12:54+08:00 ] 127.0.0.1 /user/102
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 102
+
+[ 2016-07-31T23:17:42+08:00 ] 127.0.0.1 /user/102
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 102
+
+[ 2016-07-31T23:18:36+08:00 ] 127.0.0.1 /user/102
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 102
+
+[ 2016-07-31T23:18:40+08:00 ] 127.0.0.1 /user/1
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 1
+
+[ 2016-07-31T23:18:51+08:00 ] 127.0.0.1 /user/102
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 102
+
+[ 2016-07-31T23:21:35+08:00 ] 127.0.0.1 /user/102
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 102
+
+[ 2016-07-31T23:23:03+08:00 ] 127.0.0.1 /user/102
+ERR: 1451:Cannot delete or update a parent row: a foreign key constraint fails (`thinkphp`.`posts`, CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION)
+ [ SQL语句 ] : DELETE FROM `users` WHERE `id` = 102
+
