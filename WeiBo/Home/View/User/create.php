@@ -1,4 +1,4 @@
-<extend name="layouts/app"/>
+<extend name="./app"/>
 <block name="content">
 
     <div class="container">

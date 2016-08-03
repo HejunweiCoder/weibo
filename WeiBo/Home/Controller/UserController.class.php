@@ -18,10 +18,10 @@ class UserController extends Controller\RestController
     public function __construct()
     {
         parent::__construct();
-        if(session('user')){
-            $this->assign('auth', session('user'));
+        if(cookie('auth')){
+            $this->assign('auth', cookie('auth'));
         }else{
-            $this->redirect('/login');
+            $this->redirect('/');
         }
     }
 

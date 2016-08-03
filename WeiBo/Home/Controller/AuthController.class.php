@@ -6,25 +6,42 @@ use Think\Controller;
 
 class AuthController extends Controller
 {
-    public function login()
+//    public function login()
+//    {
+//        return $this->display('/');
+//    }
+
+    public function logout()
     {
-        return $this->display('auth/login');
+        cookie('auth',null);
+        return redirect('/');
     }
 
     public function postLogin()
     {
-        $user = D('User')->where("username='".I('post.username')."'")->find();
+        $user = D('User')->where("username = '".I('post.username')."'")->find();
         if($user && $user['password'] == sha1(I('post.password'))){
-            session('user',$user);
+            cookie('auth',$user);
             return redirect('/user',1,'登录成功');
         }else{
-            return redirect('/login',1,'登录失败');
+            return redirect('/',1,'登录失败');
         }
     }
 
     public function register()
     {
         return $this->display('auth/register');
+    }
+
+    public function postRegister()
+    {
+        if(1){
+            $user = $this->create();
+            cookie('auth',$user);
+            return redirect('/user');
+        }else{
+            return redirect('/');
+        }
     }
 
     /**
@@ -35,7 +52,7 @@ class AuthController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        return D('User')->create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),

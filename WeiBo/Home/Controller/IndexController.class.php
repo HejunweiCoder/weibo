@@ -8,6 +8,14 @@ use Think\Verify;
 
 class IndexController extends Controller
 {
+    public function __construct()
+    {
+        parent::__construct();
+        if(cookie('auth')){
+            $this->assign('auth', cookie('auth'));
+        }
+    }
+
     public function index()
     {
         $img = new Image();
@@ -24,6 +32,7 @@ class IndexController extends Controller
 //        $img->text('majialichen.com','./fonts/consola.ttf',20,'#cccccc',Image::IMAGE_WATER_NORTHWEST)->save('./images/3.jpg');
 
 //        dump($_COOKIE);
+        $this->display();
 
     }
 

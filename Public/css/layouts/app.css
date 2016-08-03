@@ -1,3 +1,9 @@
+*{
+	outline:0!important;
+}
+.error{
+	color:#a94443;
+}
 .main{
 	margin-left: 200px;
 }

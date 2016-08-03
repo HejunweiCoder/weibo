@@ -12,9 +12,16 @@
 
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/sweetalert.css" rel="stylesheet">
     <link href="/css/layouts/app.css" rel="stylesheet">
+
     <script src="/js/jquery.min.js"></script>
+    <script src="/js/sweetalert.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/additional-methods.min.js"></script>
+    <script src="/js/messages_zh.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/app.js"></script>
 </head>
 <body>
 <nav class="nav navbar-default navbar-fixed-top" role="navigation">
@@ -47,70 +54,98 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/login">登录</a></li>
-                <li><a href="#">注册</a></li>
-                <li class="dropdown"><a href="#" data-toggle="dropdown"><?php echo ($auth["username"]); ?> <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="#"><i class="fa fa-btn fa-sign-out"></i>退出
-                            </a>
-                        </li>
-                    </ul>
-                </li>
+                <?php if(empty($auth)): ?><li><a href="javascript:void(0);" data-toggle="modal" data-target="#loginModal" id="login">登录</a>
+                    </li>
+                    <li><a href="javascript:void(0);" data-toggle="modal" data-target="#registerModal">注册</a></li>
+                    <?php else: ?>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown"><?php echo ($auth["username"]); ?> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="/logout"><i class="fa fa-btn fa-sign-out"></i>退出
+                                </a>
+                            </li>
+                        </ul>
+                    </li><?php endif; ?>
             </ul>
         </div>
     </div>
 </nav>
+<div class="modal fade" id="loginModal" role="dialog">
+    <div class="modal-dialog">
 
-<div class="site-nav-left-wrap" id="site_nav_left_wrap">
-
-    <div class="nav-top-push"></div>
-    <div class="site-nav-left scrollable-container">
-        <div class="list-group">
-            <a href="#" class="list-group-item"
-               data-container="#site_main_container"
-               data-toggle="tooltip"
-               data-placement="right"
-               title="仪表盘">
-                <i class="fa fa-dashboard"></i>
-                <span class="text">仪表盘</span>
-                <span class="glyphicon glyphicon-triangle-left"></span>
-            </a>
-        </div>
-
-        <div class="list-group">
-            <a href="javascript:void(0);"
-               class="list-group-item list-group-item-header collapsed"
-               data-toggle="collapse"
-               data-target="#report_sidebar_nav_collapse">
-                <span class="text">报告管理</span>
-                <span class="icon-text">报告</span>
-                <i class="fa fa-caret-down pull-right"></i>
-            </a>
-
-            <div class="list-group site-nav-left-container collapse collapsed"
-                 id="report_sidebar_nav_collapse">
-
-                <a href="#" class="list-group-item"
-                   data-pjax
-                   data-container="#site_main_container"
-                   data-toggle="tooltip"
-                   data-placement="right"
-                   title="去去去">
-                    <span class="fake-icon">买买买</span>
-                    <span class="text">么么么</span>
-                </a>
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" style="padding:35px 50px;">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4><span class="glyphicon glyphicon-lock"></span> 登录</h4>
+            </div>
+            <div class="modal-body" style="padding:40px 50px;">
+                <form role="form" action="/login" method="post" novalidate>
+                    <div class="form-group">
+                        <label for="username"><span class="glyphicon glyphicon-user"></span> 用户名</label>
+                        <input type="text" name="username" required class="form-control" id="username"
+                               placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><span class="glyphicon glyphicon-eye-open"></span> 密码</label>
+                        <input type="text" name="password" required class="form-control" id="password" placeholder="Enter password">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="" checked>记住密码</label>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block"><span
+                            class="glyphicon glyphicon-off"></span> 登录
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span
+                        class="glyphicon glyphicon-remove"></span> 取消
+                </button>
+                <p>还没有账号 <a href="javascript:void(0);" data-toggle="modal" data-target="#registerModal" id="register">立即注册</a>
+                </p>
+                <p>忘记密码? <a href="#">找回密码</a></p>
             </div>
         </div>
 
-        <div class="btn-toggle-site-nav-left text-center" id="btn_toggle_site_nav_left_wrap_style">
-            <span class="glyphicon glyphicon-arrow-left"></span>
-            <span class="glyphicon glyphicon-arrow-right"></span>
-        </div>
-
-        <div class="fix-push-up" style="height: 120px;"></div>
     </div>
 </div>
+
+<div class="modal fade" id="registerModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" style="padding:35px 50px;">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4><span class="glyphicon glyphicon-lock"></span> 注册</h4>
+            </div>
+            <div class="modal-body" style="padding:40px 50px;">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="usrname"><span class="glyphicon glyphicon-user"></span> 用户名</label>
+                        <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> 密码</label>
+                        <input type="text" class="form-control" id="psw" placeholder="Enter password">
+                    </div>
+                    <div class="form-group">
+                        <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> 确认密码</label>
+                        <input type="text" class="form-control" id="psw" placeholder="Enter password">
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block"><span
+                            class="glyphicon glyphicon-off"></span> 注册
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <div class="main">
     <div class="nav-top-push"></div>
     

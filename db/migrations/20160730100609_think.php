@@ -32,6 +32,7 @@ class Think extends AbstractMigration
             ->addColumn('password', 'string', array('limit' => 40))
             ->addColumn('email', 'string', array('limit' => 100))
             ->addColumn('first_name', 'string', array('limit' => 30))
+            ->addColumn('gender', 'enum',['values'=>['男','女']])
             ->addColumn('last_name', 'string', array('limit' => 30))
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
@@ -62,9 +63,12 @@ class Think extends AbstractMigration
             ->addColumn('updated', 'datetime', array('null' => true))
             ->create();
 
-        $table = $this->table('roles');
+        $table = $this->table('auth_rule');
         $table->addColumn('name', 'string')
-            ->addColumn('description', 'string')
+            ->addColumn('title', 'string')
+            ->addColumn('type', 'string')
+            ->addColumn('status', 'string')
+            ->addColumn('condition', 'string')
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->addIndex(array('name'), array('unique' => true))
@@ -74,26 +78,27 @@ class Think extends AbstractMigration
         $admins->addColumn('name', 'string', array('limit' => 20))
             ->addColumn('email', 'string', array('limit' => 100))
             ->addColumn('password', 'string', array('limit' => 40))
-            ->addColumn('role_id', 'integer', array('signed' => true))
-            ->addForeignKey('role_id','roles','id')
+//            ->addColumn('role_id', 'integer', array('signed' => true))
+//            ->addForeignKey('role_id','roles','id')
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
-            ->addIndex(array('email'), array('unique' => true))
+            ->addIndex(array('name','email'), array('unique' => true))
             ->create();
 
-        $table = $this->table('permissions');
-        $table->addColumn('name', 'string')
-            ->addColumn('description', 'string')
+        $table = $this->table('auth_group');
+        $table->addColumn('title', 'string')
+            ->addColumn('status', 'string')
+            ->addColumn('rules', 'string')
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
-            ->addIndex(array('name'), array('unique' => true))
             ->create();
 
-        $table = $this->table('role_permissions');
-        $table->addColumn('role_id', 'integer',['signed'=>true])
-            ->addColumn('permission_id', 'integer',['signed'=>true])
-            ->addForeignKey('role_id','roles','id')
-            ->addForeignKey('permission_id','permissions','id')
+        $table = $this->table('auth_group_access');
+        $table->addColumn('uid', 'integer',['signed'=>true])
+            ->addColumn('group_id', 'integer',['signed'=>true])
+            ->addIndex(array('uid','group_id'), array('unique' => true))
+//            ->addForeignKey('role_id','roles','id')
+//            ->addForeignKey('permission_id','permissions','id')
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->create();

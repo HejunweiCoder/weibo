@@ -16,16 +16,16 @@ return array(
         ['user/upload', 'User/upload', '', ['method' => 'POST']],
         ['user', 'User/store', '', ['method' => 'POST']],
 
+        ['admin/login', 'Admin/Auth/postLogin', '', ['method' => 'POST']],
+        ['admin/login', 'Admin/Auth/login', '', ['method' => 'GET']],
+        ['admin', 'Admin/Index/index', '', ['method' => 'GET']],
+        ['admin/logout', 'Admin/Auth/logout', '', ['method' => 'GET']],
         ['login', 'Auth/postLogin', '', ['method' => 'POST']],
-        ['login', 'Auth/login', '', ['method' => 'GET']],
         ['register', 'Auth/postRegister', '', ['method' => 'POST']],
-        ['register', 'Auth/register', '', ['method' => 'GET']],
+        ['logout', 'Auth/logout', '', ['method' => 'GET']],
 
         ['code', 'Index/code', '', ['method' => 'GET']],
         ['test', 'Index/test', '', ['method' => 'GET']],
-
-
-        ['admin/login', 'Admin/index/login', '', ['method' => 'GET']],
 
     ],
 
