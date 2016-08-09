@@ -31,9 +31,8 @@ class Think extends AbstractMigration
         $users->addColumn('username', 'string', array('limit' => 20))
             ->addColumn('password', 'string', array('limit' => 40))
             ->addColumn('email', 'string', array('limit' => 100))
-            ->addColumn('first_name', 'string', array('limit' => 30))
-            ->addColumn('gender', 'enum',['values'=>['男','女']])
-            ->addColumn('last_name', 'string', array('limit' => 30))
+            ->addColumn('gender', 'enum', ['values' => ['男', '女'], 'null' => true])
+            ->addColumn('introduction', 'string')
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->addIndex(array('username', 'email'), array('unique' => true))
@@ -45,7 +44,7 @@ class Think extends AbstractMigration
             ->addColumn('content', 'string', array('limit' => 100))
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
-            ->addForeignKey('user_id','users','id')
+            ->addForeignKey('user_id', 'users', 'id')
             ->create();
 
         $tags = $this->table('tags');
@@ -55,10 +54,10 @@ class Think extends AbstractMigration
             ->create();
 
         $table = $this->table('post_tags');
-        $table->addColumn('tag_id', 'integer',['signed'=>true])
-            ->addColumn('post_id', 'integer',['signed'=>true])
-            ->addForeignKey('tag_id','tags','id')
-            ->addForeignKey('post_id','posts','id')
+        $table->addColumn('tag_id', 'integer', ['signed' => true])
+            ->addColumn('post_id', 'integer', ['signed' => true])
+            ->addForeignKey('tag_id', 'tags', 'id')
+            ->addForeignKey('post_id', 'posts', 'id')
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->create();
@@ -82,7 +81,7 @@ class Think extends AbstractMigration
 //            ->addForeignKey('role_id','roles','id')
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
-            ->addIndex(array('name','email'), array('unique' => true))
+            ->addIndex(array('name', 'email'), array('unique' => true))
             ->create();
 
         $table = $this->table('auth_group');
@@ -94,9 +93,9 @@ class Think extends AbstractMigration
             ->create();
 
         $table = $this->table('auth_group_access');
-        $table->addColumn('uid', 'integer',['signed'=>true])
-            ->addColumn('group_id', 'integer',['signed'=>true])
-            ->addIndex(array('uid','group_id'), array('unique' => true))
+        $table->addColumn('uid', 'integer', ['signed' => true])
+            ->addColumn('group_id', 'integer', ['signed' => true])
+            ->addIndex(array('uid', 'group_id'), array('unique' => true))
 //            ->addForeignKey('role_id','roles','id')
 //            ->addForeignKey('permission_id','permissions','id')
             ->addColumn('created', 'datetime')

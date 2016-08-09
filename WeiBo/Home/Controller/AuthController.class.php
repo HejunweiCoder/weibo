@@ -22,9 +22,9 @@ class AuthController extends Controller
         $user = D('User')->where("username = '".I('post.username')."'")->find();
         if($user && $user['password'] == sha1(I('post.password'))){
             cookie('auth',$user);
-            return redirect('/user',1,'登录成功');
+            return $this->ajaxReturn('success');
         }else{
-            return redirect('/',1,'登录失败');
+            return $this->ajaxReturn('请输入正确的用户名和密码');
         }
     }
 
@@ -35,10 +35,20 @@ class AuthController extends Controller
 
     public function postRegister()
     {
-        if(1){
-            $user = $this->create();
-            cookie('auth',$user);
-            return redirect('/user');
+        if(IS_AJAX){
+            $data = [
+                'username' => I('post.username'),
+                'email' => I('post.email'),
+                'password' => I('post.password'),
+            ];
+            $user = D('User');
+            if($user->create($data)){
+                $user->add();
+                cookie('auth',$data);
+                $this->ajaxReturn('success');
+            }else{
+                $this->ajaxReturn($user->getError());
+            }
         }else{
             return redirect('/');
         }

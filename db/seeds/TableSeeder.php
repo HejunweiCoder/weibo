@@ -20,8 +20,8 @@ class TableSeeder extends AbstractSeed
             'username'   => 'hejunwei',
             'password'   => sha1(123456),
             'email'      => 'hejunweimake@gmail.com',
-            'first_name' => 'Junwei',
-            'last_name'  => 'He',
+            'gender'      => '男',
+            'introduction'  => $faker->paragraph,
             'created'    => date('Y-m-d H:i:s'),
         ];
         for ($i = 0; $i < 100; $i++) {
@@ -29,8 +29,8 @@ class TableSeeder extends AbstractSeed
                 'username'   => $faker->userName,
                 'password'   => sha1(123456),
                 'email'      => $faker->email,
-                'first_name' => $faker->firstName,
-                'last_name'  => $faker->lastName,
+                'gender'      => $faker->randomElement(['男','女']),
+                'introduction'  => $faker->paragraph,
                 'created'    => date('Y-m-d H:i:s'),
             ];
         }

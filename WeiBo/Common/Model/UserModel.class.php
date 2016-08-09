@@ -23,17 +23,22 @@ class UserModel extends Model\RelationModel
     ];
 //    protected $fields = ['id','name','email','date','_pk'=>'id'];
 
-//    protected $_auto = [
-////        ['user','md5',3,'function'],
-//        ['username','addPrefix',3,'callback','_'],
-//    ];
+    protected $_auto = [
+        ['created','datetime',self::MODEL_INSERT,'callback'],
+        ['updated','datetime',self::MODEL_UPDATE,'callback'],
+        ['password','sha1',self::MODEL_BOTH,'function'],
+    ];
 //
-//    protected $_validate = [
+    protected $_validate = [
 //        ['users','127.0.0.1','您的ip被禁止',0,'ip_allow'],
-//    ];
+        ['username','2,20','用户名不得小于2字符大于20字符',self::EXISTS_VALIDATE,'length'],
+        ['password','6,40','密码不得小于6字符大于40字符',self::EXISTS_VALIDATE,'length'],
+        ['username','','用户名已存在',self::EXISTS_VALIDATE,'unique',self::MODEL_BOTH],
+        ['email','','邮箱已存在',self::EXISTS_VALIDATE,'unique',self::MODEL_BOTH],
+    ];
 
-    protected function addPrefix($str, $prefix)
+    protected function datetime()
     {
-        return $str . $prefix;
+        return date('Y-m-d H:d:s', time());
     }
 }

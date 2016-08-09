@@ -11,7 +11,7 @@ class IndexController extends Controller
     public function __construct()
     {
         parent::__construct();
-        if(cookie('auth')){
+        if (cookie('auth')) {
             $this->assign('auth', cookie('auth'));
         }
     }
