@@ -2,6 +2,7 @@
 
 namespace Home\Controller;
 
+use Think\Verify;
 use Think\Controller;
 
 class AuthController extends Controller
@@ -19,13 +20,18 @@ class AuthController extends Controller
 
     public function postLogin()
     {
-        $user = D('User')->where("username = '".I('post.username')."'")->find();
-        if($user && $user['password'] == sha1(I('post.password'))){
-            cookie('auth',$user);
-            return $this->ajaxReturn('success');
+        if((new Verify())->check(I('post.verify'))){
+            $user = D('User')->where("username = '".I('post.username')."'")->find();
+            if($user && $user['password'] == sha1(I('post.password'))){
+                cookie('auth',$user);
+                return $this->ajaxReturn('success');
+            }else{
+                return $this->ajaxReturn('请输入正确的用户名和密码');
+            }
         }else{
-            return $this->ajaxReturn('请输入正确的用户名和密码');
+            return $this->ajaxReturn('验证码不正确');
         }
+
     }
 
     public function register()

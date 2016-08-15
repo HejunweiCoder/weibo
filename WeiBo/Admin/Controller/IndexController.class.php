@@ -50,6 +50,12 @@ class IndexController extends Controller
     {
         $user = D('User')->where("id=$id")->find();
         $this->assign('user', $user);
+//        if (array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_PJAX']) {
+//            $this->display('','','','','pjax/'); //浏览器支持Pjax功能，直接渲染输出页面。Bug fix: 兼容非调试模式
+//        } else {
+//            layout(true); //开启模板
+//            $this->display('show'); //浏览器不支持Pjax功能或F5刷新页面，使用默认的链接响应机制（加载模板）
+//        }
         $this->display('show');
     }
 

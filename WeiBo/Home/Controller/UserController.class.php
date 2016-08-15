@@ -18,10 +18,20 @@ class UserController extends Controller\RestController
     public function __construct()
     {
         parent::__construct();
-        if(cookie('auth')){
+        if (cookie('auth')) {
             $this->assign('auth', cookie('auth'));
-        }else{
+        } else {
             $this->redirect('/');
+        }
+    }
+
+    protected function render($data) {
+        $this->assign('data', $data); //控制器传值到模板
+        if (array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_PJAX']) {
+            $this->display('','','','','pjax/'); //浏览器支持Pjax功能，直接渲染输出页面。Bug fix: 兼容非调试模式
+        } else {
+            layout(true); //开启模板
+            $this->display(); //浏览器不支持Pjax功能或F5刷新页面，使用默认的链接响应机制（加载模板）
         }
     }
 
@@ -29,9 +39,9 @@ class UserController extends Controller\RestController
     {
 //        redirect('https://www.baidu.com',5,'页面跳转中');
         $users = D('User');
-        $page = new Page($users->count(),10);
+        $page = new Page($users->count(), 10);
         $page->lastSuffix = false;//最后一页不显示为总页数
-        $this->assign('users', $users->limit($page->firstRow,$page->listRows)->relation(true)->select());
+        $this->assign('users', $users->limit($page->firstRow, $page->listRows)->relation(true)->select());
         $page->show();
         $this->assign('totalPages', $page->totalPages);
 //        dump($users);
@@ -57,20 +67,24 @@ class UserController extends Controller\RestController
     {
         $user = D('User')->where("id=$id")->find();
         $this->assign('user', $user);
-        $this->display('show');
+//        $this->display('show');
+        if (array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_PJAX'])
+        {
+            return $this->render('test');
+        }
     }
 
     public function upload()
     {
         $upload = new Upload();
         $upload->maxSize = 410960;
-        $upload->exts= ['jpg','png','jpeg','gif'];
+        $upload->exts = ['jpg', 'png', 'jpeg', 'gif'];
         $upload->savePath = './';
-        $upload->subName = ['date' ,'Ymd'];
+        $upload->subName = ['date', 'Ymd'];
         $info = $upload->upload();
-        if($info){
+        if ($info) {
             $this->success('upload success');
-        }else{
+        } else {
             $this->error($upload->getError());
         }
 
@@ -106,7 +120,7 @@ class UserController extends Controller\RestController
         $data['password'] = sha1('123456');
         $data['created'] = date('Y-m-d H:d:s', time());
         $data['posts'] = [
-            ['title'=>'title','content'=>'content'],
+            ['title' => 'title', 'content' => 'content'],
         ];
         if ($user->relation(true)->add($data)) {
             echo 'success';

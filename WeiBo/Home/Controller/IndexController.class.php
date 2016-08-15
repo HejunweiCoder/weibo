@@ -16,6 +16,30 @@ class IndexController extends Controller
         }
     }
 
+    /**
+     * @return bool
+     */
+    public function checkUsername()
+    {
+        if(IS_AJAX){
+            $this->ajaxReturn(D('User')->where('username="' . I('post.username') . '"')->find() ? false : true);
+        }
+    }
+
+    /**
+     * @return bool
+     */
+    public function checkEmail()
+    {
+        if(IS_AJAX){
+            $this->ajaxReturn(D('User')->where('email="' . I('post.email') . '"')->find() ? false : true);
+        }
+    }
+
+    public function post(){
+        $this->display();
+    }
+
     public function index()
     {
         $img = new Image();

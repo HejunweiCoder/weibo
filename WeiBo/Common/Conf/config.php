@@ -7,6 +7,12 @@ return array(
     //按请求类型排序
     //edit,show,create,index,最后写post请求
     'URL_ROUTE_RULES'      => [
+        ['checkUsername', 'Index/checkUsername', '', ['method' => 'POST']],
+        ['checkEmail', 'Index/checkEmail', '', ['method' => 'POST']],
+        ['code', 'Index/code', '', ['method' => 'GET']],
+        ['post', 'Index/post', '', ['method' => 'GET']],
+        ['test', 'Index/test', '', ['method' => 'GET']],
+
         ['user/:id\d/edit', 'User/edit', '', ['method' => 'GET']],
         ['user/:id\d', 'User/show', '', ['method' => 'GET']],
         ['user/create', 'User/create', '', ['method' => 'GET']],
@@ -16,16 +22,15 @@ return array(
         ['user/upload', 'User/upload', '', ['method' => 'POST']],
         ['user', 'User/store', '', ['method' => 'POST']],
 
+        ['admin/:id\d/show', 'Admin/Index/show', '', ['method' => 'GET']],
         ['admin/login', 'Admin/Auth/postLogin', '', ['method' => 'POST']],
+        ['admin/logout', 'Admin/Auth/logout', '', ['method' => 'GET']],
         ['admin/login', 'Admin/Auth/login', '', ['method' => 'GET']],
         ['admin', 'Admin/Index/index', '', ['method' => 'GET']],
-        ['admin/logout', 'Admin/Auth/logout', '', ['method' => 'GET']],
         ['login', 'Auth/postLogin', '', ['method' => 'POST']],
         ['register', 'Auth/postRegister', '', ['method' => 'POST']],
         ['logout', 'Auth/logout', '', ['method' => 'GET']],
 
-        ['code', 'Index/code', '', ['method' => 'GET']],
-        ['test', 'Index/test', '', ['method' => 'GET']],
 
     ],
 

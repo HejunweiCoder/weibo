@@ -1,7 +1,14 @@
 <extend name="./app"/>
 <block name="content">
-
-    <div class="container">
+    <div class="page-header">
+        <h1>Example page header <small>Subtext for header</small></h1>
+    </div>
+    <div class="jumbotron">
+        <h1>Hello, world!</h1>
+        <p>...</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+    <div class="container-fluid">
         <table class="table table-striped table-bordered table-hover">
             <thead>
             <tr>
