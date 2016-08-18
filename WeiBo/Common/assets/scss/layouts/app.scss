@@ -1,0 +1,246 @@
+$left-nav-bg: #2c4255;
+$site-nav-left-width: 200px;
+$site-nav-left-width-lg: 200px;
+
+* {
+	outline: 0 !important;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+.error {
+	color: #a94443;
+}
+
+.main {
+	margin-left: 200px;
+}
+
+.btn-toggle-site-nav-left {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: $site-nav-left-width;
+	height: 60px;
+	line-height: 60px;
+	background: darken($left-nav-bg, 5%);;
+	color: darken($left-nav-bg, 15%);
+	font-size: 32px;
+	cursor: pointer;
+
+	transition: all .1s;
+	z-index: 2;
+}
+
+// icon text style; default
+.site-nav-left-wrap {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: $site-nav-left-width;
+	height: 100%;
+	background: $left-nav-bg;
+	overflow: visible; // help to display tooltip
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+	transition: all .1s;
+	.site-nav-left {
+		background: $left-nav-bg;
+		height: 100%; // help to scroll nav items
+		overflow: auto;
+		&::-webkit-scrollbar {
+			width: 0;
+		}
+
+		.list-group {
+			margin: 0;
+			& + .list-group {
+				margin-top: -1px;
+			}
+			.list-group-item-header,
+			.list-group-item {
+				height: 50px;
+				line-height: 30px;
+				border-radius: 0;
+				background: $left-nav-bg;
+				border: none;
+				color: #aaa;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				.fake-icon {
+					display: none;
+				}
+			}
+			.list-group-item {
+				&:not(.list-group-item-header) {
+					border-left: 2px solid darken($left-nav-bg, 10%);
+				}
+				&.active,
+				&:hover {
+					background: darken($left-nav-bg, 10%);
+					color: #fff;
+					border-color: #9f4d81;
+					.glyphicon {
+						display: inline;
+						position: absolute;
+						right: -5px;
+						top: 0;
+						line-height: 50px;
+						font-size: 1.2em;
+					}
+				}
+				.glyphicon {
+					display: none;
+				}
+			}
+			.list-group-item-header {
+				background: darken($left-nav-bg, 3%);
+				border-top: 2px solid #327569;
+				font-weight: bold;
+				margin-top: 1px;
+				.fa-caret-down {
+					line-height: 30px;
+					transition: all .1s;
+				}
+				&.collapsed {
+					.fa-caret-down {
+						transform: rotate(180deg);
+					}
+				}
+				&:hover {
+					background: darken($left-nav-bg, 4%);
+					color: #fff;
+				}
+				&.active {
+					background: darken($left-nav-bg, 4%);
+					color: #fff;
+				}
+				.icon-text {
+					display: none;
+				}
+			}
+		}
+	}
+	.btn-toggle-site-nav-left {
+		.glyphicon-arrow-right {
+			display: none;
+		}
+	}
+}
+
+// icon style
+body.has-icon-menu {
+	.site-nav-left-wrap {
+		width: 100px;
+
+		// for tooltip
+		z-index: 2;
+		.site-nav-left {
+			.list-group {
+				.list-group-item-header,
+				.list-group-item {
+				}
+				.list-group-item {
+					text-align: center;
+					font-size: 14px;
+					&.active, &:hover {
+						.glyphicon {
+							right: -6px;
+							font-size: 1em;
+						}
+					}
+					.text {
+						display: none;
+					}
+					.fake-icon {
+						display: inline;
+						margin-right: 0;
+					}
+				}
+				.list-group-item-header {
+					.icon-text {
+						display: inline;
+					}
+					font-size: .9em;
+					.fa-caret-down {
+						font-size: 1.4em;
+					}
+				}
+			}
+		}
+
+		.btn-toggle-site-nav-left {
+			width: 100px;
+			.glyphicon-arrow-left {
+				display: none;
+			}
+			.glyphicon-arrow-right {
+				display: inline;
+			}
+		}
+	}
+	[role="tooltip"] {
+		line-height: 24px;
+		width: 120px;
+		z-index: 999;
+	}
+}
+
+// report specific style
+.report-site-nav-left-wrap {
+	width: $site-nav-left-width-lg;
+
+	.btn-toggle-site-nav-left {
+		width: $site-nav-left-width-lg;
+	}
+}
+
+#main_container {
+	padding: 0 10px;
+}
+
+.carousel-inner .item {
+	min-height: 250px;
+	max-height: 570px;
+}
+
+.carousel-inner .item img {
+	width: 100%;
+}
+
+.introduction {
+	margin-top: 4em;
+}
+
+.introduction .pic-container {
+	height: 160px;
+}
+
+.introduction img:hover {
+	transition: all 0.6s;
+	width: 180px;
+	height: 180px;
+}
+
+#footer {
+	margin-top: 4em;
+	min-height: 100px;
+	background: #EEEEEE;
+	.container-right {
+		margin: 30px 0 0 0;
+		padding-left: 40px;
+	}
+	.nav li a {
+		padding: 5px 0 0 0;
+		color: #8e8e8e;
+	}
+	.footer-bottom {
+		margin-top: 40px;
+		padding-top: 10px;
+		border-top: 1px solid #ccc;
+	}
+}

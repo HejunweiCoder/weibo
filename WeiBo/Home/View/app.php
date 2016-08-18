@@ -34,23 +34,8 @@
 <include file="partials/modal" />
 
 <div class="container-fluid" style="padding-left: 0;padding-right: 0" id="pjax-container">
-    <div class="nav-top-push"></div>
-    Go to <a href="/user/2" data-pjax data-container="#pjax-container" data-url="/user/2">next page</a>.
     <block name="content"></block>
 </div>
-
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('#loading').hide(); //隐藏loading
-    });
-    $(document).pjax('a', '#pjax-container'); //内容替换的容器
-    $(document).on('pjax:send', function() {
-        $('#loading').show(); //显示loading
-    });
-    $(document).on('pjax:complete', function() {
-        $('#loading').fadeOut(1000); //隐藏loading效果
-    });
-</script>
 
 <footer id="footer">
     <div class="container">
@@ -140,44 +125,6 @@
         initApp();
     });
 
-    $("#email").autocomplete({
-        delay: 0, //默认为300 毫秒，延迟显示设置。
-        autoFocus:true, //设置为true 时，第一个项目会自动被选定。
-        source: function (request, response) {
-
-            var hosts = ["qq.com", "163.com", "263.com", "sina.com.cn", "gmail.com", "hotmail.com"];//邮箱域名集合
-
-            var term = request.term; //获取用户输入的内容；
-            var name = term;  //邮箱的用户名
-            var host = "";   //邮箱的域名 例如qq.com
-            var ix = term.indexOf('@'); //@的位置
-
-            var result = []; //最终呈现的邮箱列表
-
-
-            //当用户输入的数据（email）里存在@的时候，就重新给用户名和域名赋值
-
-            if (ix > -1) { //如果@符号存在，就表示用户已经输入用户名了。
-                name = term.slice(0, ix);
-                host = term.slice(ix + 1);
-            }
-
-            if (name) { //如果name有值 即：不为空
-
-                var getHosts = ['qq.com','163.com']; //根据用户名填写的域名我们在hosts里面找到对应的域名集合
-
-                getHosts=  host ? ($.grep(hosts, function (val) { return val.indexOf(host) > -1 })) : hosts;
-
-                result = $.map(getHosts, function (val) { //这个val就是getHosts里的每个域名元素。
-                    return name + "@" + val;
-                });
-            }
-            result.unshift(term); // unshift方法的作用是：将一个或多个新元素添加到数组开始，数组中的元素自动后移，返回数组新长度
-
-            response(result);
-
-        }
-    });
 </script>
 
 </body>

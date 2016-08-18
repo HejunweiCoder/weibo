@@ -1,23 +1,18 @@
 var gulp = require('gulp'),
-	sass = require('gulp-ruby-sass'),
-	autoprefixer = require('gulp-autoprefixer'),
-	minifycss = require('gulp-minify-css'),
-	jshint = require('gulp-jshint'),
+	sass = require('gulp-sass'),
 	uglify = require('gulp-uglify'),
-	imagemin = require('gulp-imagemin'),
-	rename = require('gulp-rename'),
-	concat = require('gulp-concat'),
-	notify = require('gulp-notify'),
-	cache = require('gulp-cache'),
+	autoprefixer = require('gulp-autoprefixer'),
 	livereload = require('gulp-livereload'),
-	del = require('del');
+	notify = require('gulp-notify'),
+	cached = require('gulp-cached'),
+	clean = require('gulp-clean');
 
 var autoprefixerConfig = {
 	browsers: ['last 5 versions']
 };
 
 var sassConfig = {
-	outputStyle: 'compressed'
+	outputStyle: 'nested'
 };
 
 var uglifyConfig = {
@@ -25,28 +20,27 @@ var uglifyConfig = {
 };
 
 var sassBlob = [
-	'Weibo/Common/assets/scss/*.scss',
-	'Weibo/Common/assets/scss/*/*.scss',
-	'Weibo/Common/assets/scss/*/*/*.scss',
-	'Weibo/Common/assets/scss/*/*/*/*.scss',
-	'Weibo/Common/assets/scss/*/*/*/*/*.scss',
-	'Weibo/Common/assets/scss/*/*/*/*/*/*.scss'
+	'./WeiBo/Common/assets/scss/*.scss',
+	'./WeiBo/Common/assets/scss/*/*.scss',
+	'./WeiBo/Common/assets/scss/*/*/*.scss',
+	'./WeiBo/Common/assets/scss/*/*/*/*.scss',
+	'./WeiBo/Common/assets/scss/*/*/*/*/*.scss',
+	'./WeiBo/Common/assets/scss/*/*/*/*/*/*.scss'
 ];
 
 var jsBlob = [
-	'Weibo/Common/assets/js/*.js',
-	'Weibo/Common/assets/js/*/*.js',
-	'Weibo/Common/assets/js/*/*/*.js',
-	'Weibo/Common/assets/js/*/*/*/*.js',
-	'Weibo/Common/assets/js/*/*/*/*/*.js',
-	'Weibo/Common/assets/js/*/*/*/*/*/*.js',
-	'Weibo/Common/assets/js/*/*/*/*/*/*/*.js'
+	'./WeiBo/Common/assets/js/*.js',
+	'./WeiBo/Common/assets/js/*/*.js',
+	'./WeiBo/Common/assets/js/*/*/*.js',
+	'./WeiBo/Common/assets/js/*/*/*/*.js',
+	'./WeiBo/Common/assets/js/*/*/*/*/*.js',
+	'./WeiBo/Common/assets/js/*/*/*/*/*/*.js',
+	'./WeiBo/Common/assets/js/*/*/*/*/*/*/*.js'
 ];
 
 // 编译 sass
-gulp.task('sass', function () {
+gulp.task('sass', function() {
 	gulp.src(sassBlob)
-		//.pipe(cached('sass'))
 		.pipe(sass(sassConfig))
 		.on('error', notify.onError({
 			message: "Error in line:<%= error.lineNumber %>;<%= error.message %>",

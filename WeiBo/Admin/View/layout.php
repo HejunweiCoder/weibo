@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>
-        <block name="title"></block>
         ThinkPHP
     </title>
 
@@ -26,34 +25,10 @@
             </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="app-navbar-collapse">
+        <div class="collapse navbar-collapse" id="app_navbar">
             <ul class="nav navbar-nav">
-                <li><a href="/admin" style="margin-left: 15px;margin-right: 60px;font-size: large">ThinkPHP</a></li>
-                <li class="active"><a href="/">首页</a></li>
-                <li><a href="#">文章</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">精彩内容 <span class="caret"></span></a>
-                    <ul class="bs-menu dropdown-menu">
-                        <li><a href="#">PHP</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">ThinkPHP</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Laravel</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">C++</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">JAVA</a></li>
-                    </ul>
-                </li>
+                <li><a href="/admin" style="margin-left: 15px;margin-right: 69px;font-size: large">ThinkPHP</a></li>
             </ul>
-            <form class="navbar-form navbar-left" role="search">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-                </div>
-            </form>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown"><a href="#" data-toggle="dropdown" id="name">{$auth.name} <span
                             class="caret"></span></a>
@@ -72,12 +47,10 @@
 
 <div class="site-nav-left-wrap" id="site_nav_left_wrap">
 
-    <div class="nav-top-push"></div>
+    <div style="height: 50px;"></div>
     <div class="site-nav-left scrollable-container">
         <div class="list-group">
             <a href="/admin" class="list-group-item active"
-               data-pjax
-               data-container="#main"
                data-toggle="tooltip"
                data-placement="right"
                title="仪表盘">
@@ -99,17 +72,13 @@
             <div class="list-group site-nav-left-container collapse collapsed"
                  id="report_sidebar_nav_collapse">
 
-                <a href="/admin/1/show" class="list-group-item member"
-                   data-pjax
-                   data-container="#main"
+                <a href="/admin/1/edit" class="list-group-item member"
                    data-toggle="tooltip"
                    data-placement="right">
                     <span class="text">会员列表</span>
                     <span class="glyphicon glyphicon-triangle-left"></span>
                 </a>
                 <a href="#" class="list-group-item member"
-                   data-pjax
-                   data-container="#main"
                    data-toggle="tooltip"
                    data-placement="right">
                     <span class="text">修改会员信息</span>
@@ -131,16 +100,12 @@
                  id="weibo_sidebar_nav_collapse">
 
                 <a href="/admin/2/show" class="list-group-item weibo"
-                   data-pjax
-                   data-container="#main"
                    data-toggle="tooltip"
                    data-placement="right">
                     <span class="text">微博列表</span>
                     <span class="glyphicon glyphicon-triangle-left"></span>
                 </a>
                 <a href="#" class="list-group-item weibo"
-                   data-pjax
-                   data-container="#main"
                    data-toggle="tooltip"
                    data-placement="right">
                     <span class="text">微博审核</span>
@@ -157,15 +122,18 @@
         <div class="fix-push-up" style="height: 120px;"></div>
     </div>
 </div>
-<div class="main" id="main">
-    <div class="nav-top-push"></div>
-    <block name="content"></block>
+<div style="height: 50px;"></div>
+<div class="main" id="main_container">
+    {__CONTENT__}
 </div>
 
+
 <script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.pjax.js"></script>
+<script src="/js/jquery.pjax.min.js"></script>
 <script src="/js/sweetalert.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
-<script src="/js/app.js"></script>
+<script src="/vender/js/topbar.min.js"></script>
+<script src="/js/admin/app.js"></script>
+
 </body>
 </html>

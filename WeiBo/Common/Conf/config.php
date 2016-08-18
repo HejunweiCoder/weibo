@@ -1,5 +1,9 @@
 <?php
 return array(
+
+//    'LAYOUT_ON'=>false,
+//    'LAYOUT_NAME'=>'layout',
+
     //'配置项'=>'配置值'
     // 开启路由
     'URL_ROUTER_ON'        => true,
@@ -22,7 +26,8 @@ return array(
         ['user/upload', 'User/upload', '', ['method' => 'POST']],
         ['user', 'User/store', '', ['method' => 'POST']],
 
-        ['admin/:id\d/show', 'Admin/Index/show', '', ['method' => 'GET']],
+        ['admin/:id\d/edit', 'Admin/Index/edit', '', ['method' => 'GET']],
+        ['admin/:id\d', 'Admin/Index/show', '', ['method' => 'GET']],
         ['admin/login', 'Admin/Auth/postLogin', '', ['method' => 'POST']],
         ['admin/logout', 'Admin/Auth/logout', '', ['method' => 'GET']],
         ['admin/login', 'Admin/Auth/login', '', ['method' => 'GET']],

@@ -1,4 +1,4 @@
-<nav class="nav navbar-inverse navbar-fixed-top" role="navigation" style="padding:0 20px 0 0;">
+<nav class="nav navbar-inverse navbar-fixed-top" role="navigation" style="padding:0 20px 0 0;opacity: 0.85">
     <div class="container-fluid">
         <div class="navbar-header">
             <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
@@ -11,7 +11,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="/home/user" style="margin-left: 15px;margin-right: 60px;font-size: large">ThinkPHP</a></li>
                 <li class="active"><a href="/">首页</a></li>
-                <li><a href="post" data-pjax data-target="pjax-container">文章</a></li>
+                <li><a href="post">文章</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">精彩内容 <span class="caret"></span></a>
                     <ul class="bs-menu dropdown-menu">

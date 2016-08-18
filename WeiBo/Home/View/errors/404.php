@@ -3,6 +3,8 @@
 <head>
     <title>Be right back.</title>
 
+    <link href="https://fonts.lug.ustc.edu.cn/css?family=Lato:100" rel="stylesheet" />
+
     <style>
         html, body {
             height: 100%;
@@ -14,6 +16,7 @@
             color: #B0BEC5;
             display: table;
             font-weight: 100;
+            font-family: 'Lato', sans-serif;
         }
         .container {
             text-align: center;
@@ -29,6 +32,7 @@
             margin-bottom: 40px;
         }
     </style>
+
 </head>
 <body>
 <div class="container">
