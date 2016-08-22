@@ -10,9 +10,9 @@
     </title>
 
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/sweetalert.css" rel="stylesheet">
-    <link href="/css/layouts/app.css" rel="stylesheet">
+    <link href="/vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/css/sweetalert.css" rel="stylesheet">
+    <link href="/css/admin/app.css" rel="stylesheet">
 </head>
 <body>
 <nav class="nav navbar-default navbar-fixed-top" role="navigation" style="padding:0 20px 0 0;">
@@ -128,11 +128,13 @@
 </div>
 
 
-<script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.pjax.min.js"></script>
-<script src="/js/sweetalert.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/vender/js/topbar.min.js"></script>
+<script src="/vendor/js/jquery.min.js"></script>
+<script src="/vendor/js/jquery.pjax.min.js"></script>
+<script src="/vendor/js/sweetalert.min.js"></script>
+<script src="/vendor/js/bootstrap.min.js"></script>
+<script src="/vendor/js/topbar.min.js"></script>
+<script src="/vendor/js/jquery.validate.min.js"></script>
+<script src="/vendor/js/messages_zh.min.js"></script>
 <script src="/js/admin/app.js"></script>
 
 </body>

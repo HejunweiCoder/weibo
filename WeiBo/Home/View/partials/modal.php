@@ -1,4 +1,4 @@
-<div class="modal fade" id="login-modal" role="dialog">
+<div class="modal fade" id="login_modal" role="dialog">
     <div class="modal-dialog">
 
         <!-- Modal content-->
@@ -8,7 +8,7 @@
                 <h4> 登录</h4>
             </div>
             <div class="modal-body" style="padding:40px 50px;">
-                <form role="form" action="/login" method="post" id="login-form" novalidate>
+                <form role="form" action="/login" method="post" id="login_form" novalidate>
                     <div class="form-group">
                         <label for="username"><i class="fa fa-user" aria-hidden="true"></i> 用户名</label>
                         <input type="text" name="username"
@@ -36,9 +36,10 @@
                         <input type="text" name="verify"
                                required
                                data-msg-required="请填写验证码"
-                               class="form-control" id="login-password" placeholder="Enter password">
+                               class="form-control" placeholder="Enter password">
                     </div>
-                    <img class="pull-right" src="/code" onclick="javascript:this.src='/code'" alt="验证码" style="cursor:pointer">
+                    <img class="pull-right" src="/code" onclick="javascript:this.src='/code'" alt="验证码"
+                         style="cursor:pointer">
                     <button type="submit" class="btn btn-success btn-block"><span
                             class="glyphicon glyphicon-off"></span> 登录
                     </button>
@@ -48,7 +49,7 @@
                 <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span
                         class="glyphicon glyphicon-remove"></span> 取消
                 </button>
-                <p>还没有账号 <a href="javascript:void(0);" data-toggle="modal" data-target="#registerModal" id="register">立即注册</a>
+                <p>还没有账号 <a href="javascript:void(0);" data-toggle="modal" data-target="#register_modal" id="register">立即注册</a>
                 </p>
             </div>
         </div>
@@ -56,17 +57,19 @@
     </div>
 </div>
 
-<div class="modal fade" id="register-modal" role="dialog">
+
+<div class="modal fade" id="register_modal" role="dialog">
     <div class="modal-dialog">
 
         <!-- Modal content-->
+
         <div class="modal-content">
             <div class="modal-header" style="padding:20px;">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4><span class="glyphicon glyphicon-lock"></span> 注册</h4>
             </div>
-            <div class="modal-body" style="padding:40px 50px;">
-                <form role="form" method="post" action="/register" id="register-form" novalidate>
+            <div class="modal-body" style="padding:40px 50px;overflow: auto">
+                <form role="form" method="post" action="/register" id="register_form" novalidate>
                     <div class="form-group">
                         <label for="username"><i class="fa fa-user" aria-hidden="true"></i> 用户名</label>
                         <i id="username-status"></i>
@@ -85,10 +88,10 @@
                                required
                                data-rule-maxlength="40"
                                data-msg-remote="邮箱重复"
-                               class="form-control" id="email" placeholder="Enter email">
+                               class="form-control" id="register_email" placeholder="Enter email">
                     </div>
                     <div class="form-group">
-                        <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> 密码</label>
+                        <label for="password-register"><span class="glyphicon glyphicon-eye-open"></span> 密码</label>
                         <input type="password" name="password" required
                                data-rule-minlength="6"
                                data-rule-maxlength="40"
@@ -110,6 +113,7 @@
             <div class="modal-footer">
             </div>
         </div>
-
     </div>
 </div>
+
+

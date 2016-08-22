@@ -1,19 +1,78 @@
 function initApp() {
 
 	// pjax
-	// $(document).pjax('a', '#main');
-	// $.pjax.reload('#main');
+	$(document).pjax('a[data-pjax]', '#main_container');
 
 	$('#register').click(function () {
-		$('#login-modal').modal('hide');
+		$('#login_modal').modal('hide');
+	});
+
+	//topbar
+	var navbar = $('#navbar');
+	navbar.find('li').on('click', function () {
+		navbar.find('li').removeClass('active');
+		$(this).addClass('active');
+	});
+	// mark the current tab
+	navbar.find('a').each(function () {
+		// add a slash to exclude similar pathname
+		if ((location.pathname + '/').indexOf($(this).attr('href') + '/') != -1) {
+			navbar.find('li').removeClass('active');
+			$(this).parent().addClass('active');
+		}
 	});
 
 	initLogin();
 	initRegister();
 }
 
+function initPost() {
+	var form = $('#post_form');
+	var post = $('#post');
+	var num = $('#number');
+	initForm(null, form, null, '发表成功', '发表失败');
+	//输入内容计算字数
+	post.on('keyup', function (e) {
+		var total = 280;
+		var len = $(this).val().length;
+		num.html(total - len);
+		if (num.html() < 0) {
+			alert('超出范围');
+		}
+	});
+}
+
+function emailAutoComplete() {
+	var arrs= new Array();
+	var emails = [
+		"qq.com",
+		"163.com",
+		"gmail.com",
+		"129.com",
+		"yahoo.com"
+	];
+	var email = $("#register_email");
+	var inputVal = email.val();
+	$.each(emails, function (index,info){
+		if (inputVal.indexOf("@" )==-1)
+		{
+			//没有输入@
+			arrs[index]=inputVal+ "@" +info;
+		} else {
+			//输入@
+			arrs[index]=inputVal.substring(0,inputVal.indexOf( "@" ))+"@" +info;
+		}
+	});
+	email.autocomplete({
+		source: arrs,
+		autoFocus:true
+	});
+	//下面这行针对bootstrap浮层的input,解决无法显示的问题
+	email.autocomplete("option", "appendTo", "#register_form");
+}
+
 function initLogin() {
-	initForm(null, $('#login-form'), $('#login-modal'), '登录成功', '登录失败');
+	initForm(null, $('#login_form'), $('#login_modal'), '登录成功', '登录失败');
 }
 
 function initRegister() {
@@ -51,38 +110,7 @@ function initRegister() {
 			}
 		}
 	};
-	initForm($registerRules, $('#register-form'), $('#register-modal'), '注册成功', '注册失败');
-}
-
-function initSiteNavLeft() {
-	var $navWrap = $('.list-group');
-	// mark current item
-	$navWrap.on('click', null, function () {
-		if ($navWrap.find('a').attr('class').indexOf('list-group-item-header') != -1) {
-			$navWrap.find('a').removeClass('active');
-			$(this).addClass('active');
-		}
-	});
-	// mark the current tab
-	$navWrap.find('a').each(function () {
-		if ((location.pathname + '/') == $(this).attr('href') + '/') {
-			// add a slash to exclude similar pathname
-			$navWrap.find('a').removeClass('active');
-			$(this).addClass('active');
-		}
-	});
-
-	var $member = $('.member');
-
-	if ($member.attr('class').indexOf('active') != -1) {
-		$member.parent().addClass('in');
-	}
-
-	var $weibo = $('.weibo');
-
-	if ($weibo.attr('class').indexOf('active') != -1) {
-		$weibo.parent().addClass('in');
-	}
+	initForm($registerRules, $('#register_form'), $('#register_modal'), '注册成功', '注册失败');
 }
 
 function initForm($rules, $form, $modal, success, fail) {
@@ -118,7 +146,9 @@ function initForm($rules, $form, $modal, success, fail) {
 			}).done(function (data) {
 				if (data == 'success') {
 					swal(success, '', 'success');
-					$modal.modal('hide');
+					if ($modal) {
+						$modal.modal('hide');
+					}
 					location.reload();
 				} else {
 					swal(fail, data, 'error');

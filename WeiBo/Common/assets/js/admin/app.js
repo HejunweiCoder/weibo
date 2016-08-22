@@ -9,13 +9,6 @@ $(function () {
 		topbar.hide();
 	});
 
-	//topbar
-	var navbar = $('#app_navbar');
-	navbar.find('li').on('click', function () {
-		navbar.find('li').removeClass('active');
-		$(this).addClass('active');
-	});
-
 	//左侧导航
 	var sideBar = $('#site_nav_left_wrap');
 	sideBar.find('a').each(function () {

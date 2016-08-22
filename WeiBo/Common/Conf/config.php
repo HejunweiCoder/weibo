@@ -20,11 +20,13 @@ return array(
         ['user/:id\d/edit', 'User/edit', '', ['method' => 'GET']],
         ['user/:id\d', 'User/show', '', ['method' => 'GET']],
         ['user/create', 'User/create', '', ['method' => 'GET']],
+        ['user/post', 'User/post', '', ['method' => 'GET']],
         ['user', 'User/index', '', ['method' => 'GET']],
         ['user/:id\d', 'User/update', '', ['method' => 'PUT']],
         ['user/:id\d', 'User/delete', '', ['method' => 'DELETE']],
-        ['user/upload', 'User/upload', '', ['method' => 'POST']],
+        ['user/post', 'User/postStore', '', ['method' => 'POST']],
         ['user', 'User/store', '', ['method' => 'POST']],
+
 
         ['admin/:id\d/edit', 'Admin/Index/edit', '', ['method' => 'GET']],
         ['admin/:id\d', 'Admin/Index/show', '', ['method' => 'GET']],

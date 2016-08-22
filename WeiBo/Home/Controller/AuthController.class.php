@@ -15,7 +15,7 @@ class AuthController extends Controller
     public function logout()
     {
         cookie('auth',null);
-        return redirect('/');
+        return $this->redirect('/');
     }
 
     public function postLogin()

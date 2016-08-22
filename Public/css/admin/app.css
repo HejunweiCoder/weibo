@@ -7,6 +7,10 @@
 .error {
   color: #a94443; }
 
+#app-navbar-collapse {
+  background: #FFFFFF;
+  border-bottom: 1px solid #e7e7e7; }
+
 .main {
   margin-left: 200px; }
 

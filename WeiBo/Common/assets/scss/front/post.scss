@@ -1,0 +1,29 @@
+#main_container{
+	background: #cccccc;
+}
+
+.main-container-left{
+	padding:0 50px;
+	.post-title{
+		margin: 10px;
+		font-size: 16px;
+	}
+	#post{
+		min-height: 200px;
+		width: 100%;
+	}
+}
+
+.main-container-right{
+	padding:0 50px;
+	background: #333333;
+	min-height: 400px;
+}
+
+#main{
+	background: #FFFFFF;
+	min-height:500px;
+	margin: 20px;
+	box-shadow: 3px 3px 3px 3px #999999;
+	padding: 20px;
+}

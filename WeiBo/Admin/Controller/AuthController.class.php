@@ -22,9 +22,10 @@ class AuthController extends Controller
         $admin = D('Admin')->where("name = '".I('post.username')."'")->find();
         if($admin && $admin['password'] == sha1(I('post.password'))){
             session('admin',$admin);
-            return redirect('/admin',1,'登录成功');
+            return redirect('/admin');
         }else{
-            return redirect('/admin/login',1,'登录失败');
+            session('error','用户名或密码错误');
+            return redirect('/admin/login');
         }
     }
 
