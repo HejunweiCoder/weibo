@@ -1,5 +1,9 @@
 function initApp() {
 
+	$(document).on('pjax:start', function () {
+		$('.emoji_btn').remove();
+	});
+
 	// pjax
 	$(document).pjax('a[data-pjax]', '#main_container');
 
@@ -24,6 +28,7 @@ function initApp() {
 
 	initLogin();
 	initRegister();
+
 }
 
 function initPost() {
@@ -32,18 +37,38 @@ function initPost() {
 	var num = $('#number');
 	initForm(null, form, null, '发表成功', '发表失败');
 	//输入内容计算字数
-	post.on('keyup', function (e) {
+	post.on('keyup focus click', function () {
+
+		$(this).emoji({
+			icons: [{
+				name: "QQ表情",
+				path: "/vendor/img/qq/",
+				maxNum: 91,
+				excludeNums: [41, 45, 54],
+				file: ".gif",
+				placeholder: "#qq_{alias}#"
+			}, {
+				name: "贴吧表情",
+				path: "/vendor/img/tieba/",
+				maxNum: 50,
+				file: ".jpg",
+				placeholder: "#tieba_{alias}#"
+			}]
+		});
+
+		var emojiTotal = $(this).find('img').length;
 		var total = 280;
-		var len = $(this).val().length;
-		num.html(total - len);
+		var len = $(this).text().length;
+		num.html(total - len - emojiTotal);
 		if (num.html() < 0) {
 			alert('超出范围');
 		}
+		$('#post_content').val($(this).html());
 	});
 }
 
 function emailAutoComplete() {
-	var arrs= new Array();
+	var arrs = [];
 	var emails = [
 		"qq.com",
 		"163.com",
@@ -53,19 +78,18 @@ function emailAutoComplete() {
 	];
 	var email = $("#register_email");
 	var inputVal = email.val();
-	$.each(emails, function (index,info){
-		if (inputVal.indexOf("@" )==-1)
-		{
+	$.each(emails, function (index, info) {
+		if (inputVal.indexOf("@") == -1) {
 			//没有输入@
-			arrs[index]=inputVal+ "@" +info;
+			arrs[index] = inputVal + "@" + info;
 		} else {
 			//输入@
-			arrs[index]=inputVal.substring(0,inputVal.indexOf( "@" ))+"@" +info;
+			arrs[index] = inputVal.substring(0, inputVal.indexOf("@")) + "@" + info;
 		}
 	});
 	email.autocomplete({
 		source: arrs,
-		autoFocus:true
+		autoFocus: true
 	});
 	//下面这行针对bootstrap浮层的input,解决无法显示的问题
 	email.autocomplete("option", "appendTo", "#register_form");

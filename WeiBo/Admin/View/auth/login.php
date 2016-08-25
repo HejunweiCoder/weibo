@@ -60,7 +60,7 @@
             <div class="form-group">
                 <label for="password"><i class="fa fa-lock" aria-hidden="true"></i> 密码</label>
                 <input type="password" name="password" required
-                       data-rule-minlength="6"
+                       data-rule-minlength="4"
                        data-rule-maxlength="40"
                        data-msg-required="请填写密码"
                        class="form-control" id="login_password" placeholder="Enter password">

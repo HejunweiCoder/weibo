@@ -36,7 +36,7 @@
                         <input type="text" name="verify"
                                required
                                data-msg-required="请填写验证码"
-                               class="form-control" placeholder="Enter password">
+                               class="form-control" placeholder="Enter code">
                     </div>
                     <img class="pull-right" src="/code" onclick="javascript:this.src='/code'" alt="验证码"
                          style="cursor:pointer">

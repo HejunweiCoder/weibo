@@ -28,4 +28,19 @@ class PostModel extends Model\RelationModel
             'relation_foreign_key'  =>  'tag_id',
         ],
     ];
+
+    protected $_auto = [
+        ['created','datetime',self::MODEL_INSERT,'callback'],
+        ['updated','datetime',self::MODEL_UPDATE,'callback'],
+    ];
+
+    protected $_validate = [
+        ['user_id','require','用户名不得小于2字符大于20字符'],
+        ['content','8,2048','微博内容不得小于8字符大于280字符',self::EXISTS_VALIDATE,'length'],
+    ];
+
+    protected function datetime()
+    {
+        return date('Y-m-d H:d:s', time());
+    }
 }

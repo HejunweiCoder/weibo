@@ -11,7 +11,6 @@
             <ul class="nav navbar-nav">
                 <li><a href="/" data-pjax style="margin-left: 15px;margin-right: 60px;font-size: large">ThinkPHP</a></li>
                 <li class="active"><a href="/" data-pjax>首页</a></li>
-                <li><a href="/user/post" data-pjax>发表动态</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">精彩内容 <span class="caret"></span></a>
                     <ul class="bs-menu dropdown-menu">
@@ -33,6 +32,7 @@
                     </li>
                     <li><a href="javascript:void(0);" data-toggle="modal" data-target="#register_modal">注册</a></li>
                 <else/>
+                    <li><a href="/user/post" data-pjax>发表动态</a></li>
                     <li class="dropdown"><a href="#" data-toggle="dropdown">{$auth.username} <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">@提到我的</a></li>

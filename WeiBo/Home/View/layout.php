@@ -16,6 +16,8 @@
     <link href="/vendor/css/jquery-ui.min.css" rel="stylesheet">
     <link href="/vendor/css/sweetalert.css" rel="stylesheet">
     <link href="/vendor/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/vendor/css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="/vendor/css/jquery.emoji.css" rel="stylesheet">
     <link href="/css/front/app.css" rel="stylesheet">
 
     <script src="/vendor/js/jquery.min.js"></script>
@@ -26,6 +28,9 @@
     <script src="/vendor/js/jquery-ui.min.js"></script>
     <script src="/vendor/js/additional-methods.min.js"></script>
     <script src="/vendor/js/messages_zh.min.js"></script>
+    <script src="/vendor/js/jquery.mCustomScrollbar.min.js"></script>
+    <script src="/vendor/js/jquery.mousewheel-3.0.6.min.js"></script>
+    <script src="/vendor/js/jquery.emoji.min.js"></script>
     <script src="/js/front/app.js"></script>
 </head>
 <body>
@@ -43,9 +48,11 @@
 <script>
     $(function () {
         initApp();
+
         $('#register_email').on('keyup', function () {
             emailAutoComplete();
         });
+
     });
 </script>
 

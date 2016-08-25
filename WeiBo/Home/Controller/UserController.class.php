@@ -27,9 +27,9 @@ class UserController extends Controller\RestController
 
     public function post()
     {
-        if(IS_PJAX){
+        if (IS_PJAX) {
             return $this->display('post');
-        }else{
+        } else {
             layout(true);
             return $this->display('post');
         }
@@ -37,7 +37,18 @@ class UserController extends Controller\RestController
 
     public function postStore()
     {
-
+        $user = D('User')->where('username = "' . cookie('auth')['username'] . '"')->relation(true)->find();
+        $data = [
+            'user_id' => $user['id'],
+            'content' => $_POST['post'],
+        ];
+        $post = D('Post');
+        if ($post->create($data)) {
+            $post->add();
+            $this->ajaxReturn('success');
+        } else {
+            $this->ajaxReturn($user->getError());
+        }
     }
 
     public function index()
@@ -73,8 +84,7 @@ class UserController extends Controller\RestController
         $user = D('User')->where("id=$id")->find();
         $this->assign('user', $user);
 //        $this->display('show');
-        if (array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_PJAX'])
-        {
+        if (array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_PJAX']) {
             return $this->render('test');
         }
     }

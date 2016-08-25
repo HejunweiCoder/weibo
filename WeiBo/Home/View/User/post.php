@@ -10,17 +10,17 @@
         </label>
         <form action="/user/post" method="post" class="form" id="post_form" novalidate>
             <div class="form-group">
-                <textarea name="post" id="post" class="form-control"
+                <div contenteditable="true" id="post" class="form-control"
                           required
                           data-rule-maxlength="280"
                           data-rule-minlength="8"
-                ></textarea>
+                ></div>
+                <input type="hidden" name="post" id="post_content">
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-default btn-lg pull-right" value="发表">
             </div>
         </form>
-
     </div>
     <div class="main-container-right col-lg-4">
         container-right
