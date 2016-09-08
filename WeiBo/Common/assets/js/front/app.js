@@ -1,11 +1,13 @@
 function initApp() {
 
+	// pjax
+	$(document).pjax('[data-pjax]', '#main_container');
 	$(document).on('pjax:start', function () {
 		$('.emoji_btn').remove();
 	});
-
-	// pjax
-	$(document).pjax('a[data-pjax]', '#main_container');
+	$(document).on('submit','form[data-pjax]',function (e) {
+		$.pjax.submit(e,'#main_container');
+	});
 
 	$('#register').click(function () {
 		$('#login_modal').modal('hide');
@@ -35,10 +37,9 @@ function initPost() {
 	var form = $('#post_form');
 	var post = $('#post');
 	var num = $('#number');
-	initForm(null, form, null, '发表成功', '发表失败');
+	// initForm(null, form, null, '发表成功', '发表失败');
 	//输入内容计算字数
-	post.on('keyup focus click', function () {
-
+	post.focus(function () {
 		$(this).emoji({
 			icons: [{
 				name: "QQ表情",
@@ -55,7 +56,16 @@ function initPost() {
 				placeholder: "#tieba_{alias}#"
 			}]
 		});
-
+		var emojiTotal = $(this).find('img').length;
+		var total = 280;
+		var len = $(this).text().length;
+		num.html(total - len - emojiTotal);
+		if (num.html() < 0) {
+			alert('超出范围');
+		}
+		$('#post_content').val($(this).html());
+	});
+	post.on('keyup click', function () {
 		var emojiTotal = $(this).find('img').length;
 		var total = 280;
 		var len = $(this).text().length;

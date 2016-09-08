@@ -49,7 +49,6 @@ class TableSeeder extends AbstractSeed
         for ($i = 0; $i < 100; $i++) {
             $posts[] = [
                 'user_id' => $faker->numberBetween(1,50),
-                'title'   => $faker->sentence,
                 'content' => $faker->paragraph,
                 'created' => date('Y-m-d H:i:s'),
             ];

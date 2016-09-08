@@ -35,22 +35,6 @@ class UserController extends Controller\RestController
         }
     }
 
-    public function postStore()
-    {
-        $user = D('User')->where('username = "' . cookie('auth')['username'] . '"')->relation(true)->find();
-        $data = [
-            'user_id' => $user['id'],
-            'content' => $_POST['post'],
-        ];
-        $post = D('Post');
-        if ($post->create($data)) {
-            $post->add();
-            $this->ajaxReturn('success');
-        } else {
-            $this->ajaxReturn($user->getError());
-        }
-    }
-
     public function index()
     {
 //        redirect('https://www.baidu.com',5,'页面跳转中');
@@ -87,44 +71,6 @@ class UserController extends Controller\RestController
         if (array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_PJAX']) {
             return $this->render('test');
         }
-    }
-
-    public function upload()
-    {
-        $upload = new Upload();
-        $upload->maxSize = 410960;
-        $upload->exts = ['jpg', 'png', 'jpeg', 'gif'];
-        $upload->savePath = './';
-        $upload->subName = ['date', 'Ymd'];
-        $info = $upload->upload();
-        if ($info) {
-            $this->success('upload success');
-        } else {
-            $this->error($upload->getError());
-        }
-
-//        $user = new Model('user');
-//        $map['id'] = 1;
-//        $map['id'] = ['between','1,3'];
-//        $map['id'] = ['not between','2,3'];
-//        $map['id|user'] = '1';
-//        $map['id'] = ['in','1,3'];
-//        $map['id'] = ['not in','1,3'];
-//        $map['user'] = ['like','hejunwei'];
-//        $map['user'] = ['notlike','hejunwei'];
-//        $map['user'] = ['like',['hejunwei','1'],'AND'];
-//        $map['_logic'] = 'OR';
-//        $map = new \stdClass();
-//        $map->id = 1;
-//        $map->user = 'hejunwei';
-//        $map->_logic = 'OR';
-//        dump($user->where('id>0')->order('id ASC')->limit(1)->select());
-
-        //这两个方法都是在调用UserModel
-//        $user = new UserModel();
-        //这两个方法是等价的
-//        D('user');
-//        dump(D('User')->getDbfields());
     }
 
     public function store()

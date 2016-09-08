@@ -38,7 +38,7 @@
 <include file="partials/navbar"/>
 
 <include file="partials/modal"/>
-
+<div style="height: 50px;"></div>
 <div class="container-fluid" id="main_container">
     {__CONTENT__}
 </div>

@@ -40,8 +40,8 @@ class Think extends AbstractMigration
 
         $posts = $this->table('posts');
         $posts->addColumn('user_id', 'integer', array('signed' => true))
-            ->addColumn('title', 'string', array('limit' => 40))
             ->addColumn('content', 'string', array('limit' => 2048))
+            ->addColumn('file_path', 'string', array('limit' => 80))
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->addForeignKey('user_id', 'users', 'id')

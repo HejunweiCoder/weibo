@@ -2,164 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeb9eb10-0840-4186-ab7b-1df72ed25331" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/72.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/73.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/74.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/75.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/76.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/77.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/78.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/79.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/80.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/81.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/82.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/83.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/84.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/85.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/86.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/87.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/88.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/89.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/90.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/91.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/38.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/39.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/41.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/44.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/47.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/49.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/css/jquery.emoji.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/css/jquery.mCustomScrollbar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.emoji.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.mCustomScrollbar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.mousewheel-3.0.6.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/weibo.iml" afterPath="$PROJECT_DIR$/.idea/weibo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/uploads/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeiBo/Home/View/Post/create.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd3a4ea9b7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd3aaf27bd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd740c983d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd740cb396.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd740cbb66.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd74d3727a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd74d38dd2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd74d3998a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579cd7a0ee1d9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/uploads/20160731/579d762404b6d.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/front/app.js" afterPath="$PROJECT_DIR$/Public/js/front/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Admin/View/auth/login.php" afterPath="$PROJECT_DIR$/WeiBo/Admin/View/auth/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Common/Model/PostModel.class.php" afterPath="$PROJECT_DIR$/WeiBo/Common/Model/PostModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Common/Conf/config.php" afterPath="$PROJECT_DIR$/WeiBo/Common/Conf/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js" afterPath="$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/User/post.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/User/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/User/edit.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/User/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/layout.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/partials/modal.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/partials/modal.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrations/20160730100609_think.php" afterPath="$PROJECT_DIR$/db/migrations/20160730100609_think.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds/TableSeeder.php" afterPath="$PROJECT_DIR$/db/seeds/TableSeeder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WeiBo/Home/View/User/post.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/Post/show.php" />
     </list>
     <ignored path="weibo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -180,51 +46,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/layout.php">
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Post/create.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+            <state relative-caret-position="168">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+            <state relative-caret-position="168">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiBo/Admin/View/auth/login.php">
+      <file leaf-file-name="PostController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
-              <folding />
+            <state relative-caret-position="21">
+              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+              <folding>
+                <element signature="e#35#56#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/AuthController.class.php">
+      <file leaf-file-name="TableSeeder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/seeds/TableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiBo/Common/Model/PostModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="336">
+              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -247,12 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/edit.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/index.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/show.php" />
-        <option value="$PROJECT_DIR$/db/seeds/TableSeeder.php" />
-        <option value="$PROJECT_DIR$/Public/js/app.js" />
-        <option value="$PROJECT_DIR$/Public/css/back/index.css" />
         <option value="$PROJECT_DIR$/Public/css/front/index.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/Artical/index.php" />
@@ -280,24 +132,30 @@
         <option value="$PROJECT_DIR$/Public/index.php" />
         <option value="$PROJECT_DIR$/WeiBo/Home/Controller/AuthController.class.php" />
         <option value="$PROJECT_DIR$/WeiBo/Admin/View/layout.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php" />
         <option value="$PROJECT_DIR$/WeiBo/Common/assets/scss/front/index.scss" />
         <option value="$PROJECT_DIR$/WeiBo/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/footer.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Common/assets/scss/front/post.scss" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/Index/index.php" />
         <option value="$PROJECT_DIR$/WeiBo/Common/assets/scss/front/app.scss" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php" />
-        <option value="$PROJECT_DIR$/db/migrations/20160730100609_think.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/post.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/layout.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/modal.php" />
         <option value="$PROJECT_DIR$/WeiBo/Common/Model/UserModel.class.php" />
         <option value="$PROJECT_DIR$/WeiBo/Common/Model/PostModel.class.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php" />
         <option value="$PROJECT_DIR$/WeiBo/Admin/View/auth/login.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Common/assets/scss/front/post.scss" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/edit.php" />
+        <option value="$PROJECT_DIR$/Public/js/front/app.js" />
+        <option value="$PROJECT_DIR$/Public/js/admin/app.js" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/post.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/layout.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/Post/show.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/Post/create.php" />
+        <option value="$PROJECT_DIR$/db/migrations/20160730100609_think.php" />
+        <option value="$PROJECT_DIR$/db/seeds/TableSeeder.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php" />
       </list>
     </option>
   </component>
@@ -342,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -390,142 +247,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -548,7 +269,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="Conf" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,23 +283,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,19 +297,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -618,15 +311,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,37 +329,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
+              <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -687,13 +350,36 @@
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../junhe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -701,18 +387,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\www\weibo\WeiBo\Home\View\User" />
       <recent name="D:\www\weibo\WeiBo\Home\View\post" />
+      <recent name="D:\www\weibo\WeiBo\Home\View\index" />
+      <recent name="D:\www\weibo\WeiBo\Home\View\User" />
       <recent name="D:\www\weibo\Public" />
       <recent name="D:\www\weibo\Public\vender" />
-      <recent name="D:\www\weibo\WeiBo\Common\assets\js\front" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\weibo\Public\uploads" />
+      <recent name="D:\www\weibo\WeiBo\Home\View\Post" />
+      <recent name="D:\www\weibo\WeiBo\Home\Controller" />
       <recent name="D:\www\weibo\Public\vendor\css" />
       <recent name="D:\www\weibo\Public\vendor\js" />
-      <recent name="D:\www\weibo\Public\vendor" />
-      <recent name="D:\www\weibo\Public\js" />
-      <recent name="D:\www\weibo\Public\vender\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -792,14 +478,25 @@
       <workItem from="1471836916110" duration="37639000" />
       <workItem from="1471953011428" duration="5244000" />
       <workItem from="1472013443770" duration="1240000" />
+      <workItem from="1472135280159" duration="4971000" />
+      <workItem from="1472486603130" duration="553000" />
+      <workItem from="1472487307444" duration="474000" />
+      <workItem from="1472487919505" duration="1581000" />
+      <workItem from="1472568139087" duration="2438000" />
+      <workItem from="1472630090488" duration="671000" />
+      <workItem from="1472717697299" duration="2630000" />
+      <workItem from="1472788342524" duration="93000" />
+      <workItem from="1472806489115" duration="1341000" />
+      <workItem from="1473258642857" duration="12866000" />
+      <workItem from="1473313497161" duration="1981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208051000" />
+    <option name="totallyTimeSpent" value="237650000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22327965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -837,171 +534,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WeiBo/Admin/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/errors/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/auth/register.php" />
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/favicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/front/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/admin/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="121" column="39" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/scss/admin/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/admin/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="0" column="346" selection-start-line="0" selection-start-column="346" selection-end-line="0" selection-end-column="346" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/auth/login.php" />
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="247" column="5" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/js/admin/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/vendor/js/additional-methods.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3654">
-          <caret line="3" column="17524" selection-start-line="3" selection-start-column="17524" selection-end-line="3" selection-end-column="17524" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/vendor/js/messages_zh.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="3" column="731" selection-start-line="3" selection-start-column="731" selection-end-line="3" selection-end-column="731" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php" />
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/scss/front/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/EmptyController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Admin/View/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/vendor/js/autocomplete.js" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="973" column="0" selection-start-line="973" selection-start-column="0" selection-end-line="973" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/vendor/css/autocomplete.css" />
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/scss/front/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/scss/front/post.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/vendor/js/jquery.validate.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1009,21 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/vendor/js/jquery.emoji.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/vendor/js/jquery.mousewheel-3.0.6.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1044,38 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrations/20160730100609_think.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Index/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1090,35 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <marker date="1428983653331" expanded="true" signature="8962:9112" ph="SELECT b.${{... " />
-            <marker date="1428983653331" expanded="true" signature="18206:18487" ph="INSERT INTO ${$mappingRelationTable}... " />
-            <marker date="1428983653331" expanded="true" signature="18284:18487" ph="SELECT a.${$... ${$this-&gt;getTableName()}" />
-            <marker date="1428983653331" expanded="true" signature="19594:19875" ph="INSERT INTO ${$mappingRelationTable}... " />
-            <marker date="1428983653331" expanded="true" signature="19672:19875" ph="SELECT a.${$... ${$this-&gt;getTableName()}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/modal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -1140,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,22 +615,283 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Admin/View/Index/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/vendor/js/jquery.mousewheel-3.0.6.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/scss/front/post.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="2147" column="0" selection-start-line="2147" selection-start-column="0" selection-end-line="2147" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/front/post.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/front/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/front/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeiBo/Admin/View/auth/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="351">
+          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/admin/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="0" column="359" selection-start-line="0" selection-start-column="359" selection-end-line="0" selection-end-column="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/admin/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Admin/View/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="124" column="33" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/front/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/modal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Controller/RestController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/Controller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="191" column="23" selection-start-line="191" selection-start-column="23" selection-end-line="191" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        <state relative-caret-position="147">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Post/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/uploads/upload/20160908/57d0e4fd1f008.jpg" />
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/uploads/20160908/57d0e752171f6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+          <folding>
+            <element signature="e#35#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrations/20160730100609_think.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/ja_JP/Text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="621" column="43" selection-start-line="621" selection-start-column="43" selection-end-line="621" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Post/show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/uploads/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds/TableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
           <folding />
         </state>
       </provider>
