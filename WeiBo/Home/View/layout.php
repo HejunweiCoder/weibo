@@ -29,7 +29,7 @@
     <script src="/vendor/js/additional-methods.min.js"></script>
     <script src="/vendor/js/messages_zh.min.js"></script>
     <script src="/vendor/js/jquery.mCustomScrollbar.min.js"></script>
-    <script src="/vendor/js/jquery.mousewheel-3.0.6.min.js"></script>
+<!--    <script src="/vendor/js/jquery.mousewheel-3.0.6.min.js"></script>-->
     <script src="/vendor/js/jquery.emoji.min.js"></script>
     <script src="/js/front/app.js"></script>
 </head>
@@ -38,7 +38,7 @@
 <include file="partials/navbar"/>
 
 <include file="partials/modal"/>
-<div style="height: 50px;"></div>
+<div style="height: 50px;background-color: #000000;"></div>
 <div class="container-fluid" id="main_container">
     {__CONTENT__}
 </div>

@@ -32,12 +32,13 @@ class PostController extends Controller
         if ($info) {
             return '/uploads/' . $info['file']['savepath'] . $info['file']['savename'];
         } else {
-            return $this->error('文件上传失败');
+            return false;
         }
     }
 
     public function index()
     {
+        alert_back('hi');
         $img = new Image();
         $img->open('./images/1.jpg');
         $param['width'] = $img->width();
@@ -66,34 +67,39 @@ class PostController extends Controller
     {
         $user = D('User')->where('username = "' . cookie('auth')['username'] . '"')->relation(true)->find();
         $filePath = $this->upload();
-        $data = [
-            'user_id'   => $user['id'],
-            'content'   => $_POST['post'],
-            'file_path' => $filePath
-        ];
+        if ($filePath) {
+            $data['image_path'] = $filePath;
+        } else {
+            return alert_back('上传的图片有误');
+        }
+        $data['user_id'] = $user['id'];
+        $data['content'] = $_POST['post'];
         $post = D('Post');
 //        $this->upload();
         if ($post->create($data)) {
             $post->add();
-            $this->assign('post',$post);
-            $this->display('show');
+//            $this->assign('post',$post);
+            return redirect('/posts/create');
         } else {
-            $this->ajaxReturn($user->getError());
+            $this->ajaxReturn($post->getError());
         }
     }
 
-    public function show()
+    public function show($id)
     {
+        echo $id;
         if (IS_PJAX) {
-            $this->display('create');
+            $this->display('show');
         } else {
             layout(true);
-            $this->display('create');
+            $this->display('show');
         }
     }
 
     public function create()
     {
+        $posts = D('Post')->relation(true)->select();
+        $this->assign('posts', $posts);
         if (IS_PJAX) {
             $this->display('create');
         } else {

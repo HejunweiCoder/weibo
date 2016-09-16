@@ -105,5 +105,5 @@ return array(
     'DB_USER'              => 'root',
     'DB_PWD'               => 'root',
 //    'DB_PREFIX'            => 'think_',
-    'DB_DSN'               => 'mysql:host=localhost;dbname=thinkphp;charset=UTF8'
+    'DB_DSN'               => 'mysql:host=localhost;dbname=weibo;charset=UTF8'
 );
