@@ -75,6 +75,16 @@ function initPost() {
 		}
 		$('#post_content').val($(this).html());
 	});
+
+	$('.img').click(function () {
+		$(this).hide();
+		$(this).next().show();
+	});
+
+	$('.img-zoom').click(function () {
+		$(this).hide();
+		$(this).prev().show();
+	});
 }
 
 function emailAutoComplete() {

@@ -1,6 +1,6 @@
 <link href="/css/front/post.css" rel="stylesheet">
 <div id="main" style="overflow: hidden">
-    <div class="main-container-left col-lg-8">
+    <div class="main-container-left col-lg-9">
         <div class="post-title">
             <span class="pull-right">还可以输入<strong id="number">280</strong>个字</span>
         </div>
@@ -9,7 +9,8 @@
         </label>
 
         <form action="/posts" data-pjax method="post" enctype="multipart/form-data" class="form" id="post_form"
-              novalidate>
+              novalidate
+              style="margin-bottom: 70px">
             <div class="form-group">
                 <div contenteditable="true" id="post" class="form-control"
                      required
@@ -19,12 +20,12 @@
                 <input type="hidden" name="post" id="post_content">
             </div>
             <div class="form-group" style="margin:35px 0 0 0;">
-                <label for="file">上传文件
+                <label for="file">上传配图
                     <input type="file" name="file" id="file" class="form-control">
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" id="btn_submit" class="btn btn-default pull-right" value="发表">
+                <input type="submit" id="btn_submit" class="btn btn-default btn-lg pull-right" value="发表">
             </div>
         </form>
 
@@ -37,7 +38,7 @@
             <br>
             <div class="tab-pane active" id="following">
                 <foreach name="posts" key="k" item="post">
-                    <div class="media" style="position: relative">
+                    <div class="media" style="position: relative;">
                         <a href="#" class="media-left">
                             <img width="100" height="120" src="/uploads/users/1/57d97511b5028.jpg" alt="avatar">
                         </a>
@@ -46,14 +47,17 @@
                             {$post.content}
                             <notempty name="post.image_path">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 img">
                                         <div class="thumbnail">
-                                            <img src="{$post.image_path}" alt="...">
+                                            <img src="{$post.image_path}" alt="thumb">
                                         </div>
+                                    </div>
+                                    <div class="img-zoom" style="display: none">
+                                        <img src="{$post.image_path}" alt="image">
                                     </div>
                                 </div>
                             </notempty>
-                            <div class="footer" style="width:90%;position: absolute;bottom: 0">
+                            <div class="footer" style="width:80%;position: absolute;bottom: 0">
                                 <br>
                                 <span class="text-muted">{$post.created}</span>
                                 <span class="text-primary pull-right">赞(0) | 转播 | 评论 | 收藏</span>
@@ -68,7 +72,7 @@
             </div>
         </div>
     </div>
-    <div class="main-container-right col-lg-4">
+    <div class="main-container-right col-lg-3">
         container-right
     </div>
 </div>

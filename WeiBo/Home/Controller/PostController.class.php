@@ -38,7 +38,6 @@ class PostController extends Controller
 
     public function index()
     {
-        alert_back('hi');
         $img = new Image();
         $img->open('./images/1.jpg');
         $param['width'] = $img->width();
@@ -98,7 +97,7 @@ class PostController extends Controller
 
     public function create()
     {
-        $posts = D('Post')->relation(true)->select();
+        $posts = D('Post')->order('created desc')->relation(true)->select();
         $this->assign('posts', $posts);
         if (IS_PJAX) {
             $this->display('create');

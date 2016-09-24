@@ -27,3 +27,33 @@
 	box-shadow: 3px 3px 3px 3px #999999;
 	padding: 20px;
 }
+
+.img-zoom{
+	background: #fafafa;
+	margin: 10px 0 0 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.img-zoom img{
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+.img-zoom ol{
+	height: 35px;
+	line-height: 35px;
+	font-size: 13px;
+	padding:0 0 0 20px;
+	li{
+		float: left;
+		margin: 0 10px 0 0;
+		a{
+			color: #5e7c85;
+			text-decoration: none;
+		}
+		ol{
+			margin-bottom: 15px;
+		}
+	}
+}
