@@ -123,7 +123,7 @@ function initRegister() {
 	$registerRules = {
 		username: {
 			remote: {
-				url: '/checkUsername',
+				url: '/check-username',
 				type: 'POST',
 				beforeSend: function () {
 					$('#username-status').addClass('fa fa-refresh');
@@ -139,7 +139,7 @@ function initRegister() {
 		},
 		email: {
 			remote: {
-				url: '/checkEmail',
+				url: '/check-email',
 				type: 'POST',
 				beforeSend: function () {
 					$('#email-status').addClass('fa fa-refresh');

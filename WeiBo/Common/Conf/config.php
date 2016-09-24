@@ -11,8 +11,8 @@ return array(
     //按请求类型排序
     //edit,show,create,index,最后写post请求
     'URL_ROUTE_RULES'      => [
-        ['checkUsername', 'Index/checkUsername', '', ['method' => 'POST']],
-        ['checkEmail', 'Index/checkEmail', '', ['method' => 'POST']],
+        ['check-username', 'Index/checkUsername', '', ['method' => 'POST']],
+        ['check-email', 'Index/checkEmail', '', ['method' => 'POST']],
         ['code', 'Index/code', '', ['method' => 'GET']],
         ['test', 'Index/test', '', ['method' => 'GET']],
 
