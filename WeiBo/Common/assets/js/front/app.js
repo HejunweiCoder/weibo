@@ -5,8 +5,8 @@ function initApp() {
 	$(document).on('pjax:start', function () {
 		$('.emoji_btn').remove();
 	});
-	$(document).on('submit','form[data-pjax]',function (e) {
-		$.pjax.submit(e,'#main_container');
+	$(document).on('submit', 'form[data-pjax]', function (e) {
+		$.pjax.submit(e, '#main_container');
 	});
 
 	$('#register').click(function () {
@@ -85,6 +85,37 @@ function initPost() {
 		$(this).hide();
 		$(this).prev().show();
 	});
+
+}
+
+function loadMore() {
+	$loadMoreBtn = $('#load_more');
+	window.scrollFlag = true;
+	$load = function () {
+		if (window.scrollFlag && $(document).scrollTop() > $loadMoreBtn.offset().top - 500) {
+			if($('#load_more')){
+				setTimeout(function () {
+					$loadMoreBtn.attr('data-page', Number($loadMoreBtn.attr('data-page')) + 1);
+					$.ajax({
+						url: '/posts?page=' + $loadMoreBtn.attr('data-page'),
+						type: 'GET',
+						data: {},
+						success: function (data) {
+							if (data['status'] != false) {
+								$('.media').last().append(data['data'])
+							} else {
+								$loadMoreBtn.html('没有更多了');
+								window.scrollFlag = false;
+							}
+						}
+					});
+					window.scrollFlag = true;
+				}, 1000);
+			}
+			window.scrollFlag = false;
+		}
+	};
+	$(window).scroll($load);
 }
 
 function emailAutoComplete() {

@@ -32,7 +32,7 @@
                     </li>
                     <li><a href="javascript:void(0);" data-toggle="modal" data-target="#register_modal">注册</a></li>
                 <else/>
-                    <li><a href="/posts/create" data-pjax>发表动态</a></li>
+                    <li><a href="/posts" data-pjax>微博动态</a></li>
                     <li class="dropdown"><a href="#" data-toggle="dropdown">{$auth.username} <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">@提到我的</a></li>

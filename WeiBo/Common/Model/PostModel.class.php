@@ -41,6 +41,6 @@ class PostModel extends Model\RelationModel
 
     protected function datetime()
     {
-        return date('Y-m-d H:d:s', time());
+        return date('Y-m-d H:i:s', time());
     }
 }

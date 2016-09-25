@@ -38,28 +38,22 @@ class PostController extends Controller
 
     public function index()
     {
-        $img = new Image();
-        $img->open('./images/1.jpg');
-        $param['width'] = $img->width();
-        $param['height'] = $img->height();
-        $param['type'] = $img->type();
-        $param['mime'] = $img->mime();
-        $param['size'] = $img->size();
-//        dump($param);
-//        $img->crop('0','0',($param['width']-400)/2,($param['height']-400)/2,400,400)->save('./images/3.jpg');
-//        $img->thumb('300','300')->save('./images/3.jpg');
-//        $img->water('./images/vip-icon.png')->save('./images/3.jpg');
-//        $img->text('majialichen.com','./fonts/consola.ttf',20,'#cccccc',Image::IMAGE_WATER_NORTHWEST)->save('./images/3.jpg');
-
-//        dump($_COOKIE);
-
+        $firstRow = 0;
+        if (!empty(I('get.page'))) {
+            $firstRow = (I('get.page') - 1) * 10;
+        }
+        $posts = D('Post')->relation(true)->order('created desc')->limit($firstRow, 10)->select();
+        $this->assign('posts', $posts);
+        $status = count($posts) > 0 ? true : false;
+        if (IS_AJAX) {
+            $this->ajaxReturn(['data' => $this->fetch('posts-list'), 'status' => $status]);
+        }
         if (IS_PJAX) {
             $this->display('index');
         } else {
             layout(true);
             $this->display('index');
         }
-
     }
 
     public function store()
@@ -68,8 +62,6 @@ class PostController extends Controller
         $filePath = $this->upload();
         if ($filePath) {
             $data['image_path'] = $filePath;
-        } else {
-            return alert_back('上传的图片有误');
         }
         $data['user_id'] = $user['id'];
         $data['content'] = $_POST['post'];
@@ -78,32 +70,25 @@ class PostController extends Controller
         if ($post->create($data)) {
             $post->add();
 //            $this->assign('post',$post);
-            return redirect('/posts/create');
+            return redirect('/posts');
         } else {
             $this->ajaxReturn($post->getError());
         }
     }
 
-    public function show($id)
-    {
-        echo $id;
-        if (IS_PJAX) {
-            $this->display('show');
-        } else {
-            layout(true);
-            $this->display('show');
-        }
-    }
+//    public function show($id)
+//    {
+//        echo $id;
+//        if (IS_PJAX) {
+//            $this->display('show');
+//        } else {
+//            layout(true);
+//            $this->display('show');
+//        }
+//    }
 
     public function create()
     {
-        $posts = D('Post')->order('created desc')->relation(true)->select();
-        $this->assign('posts', $posts);
-        if (IS_PJAX) {
-            $this->display('create');
-        } else {
-            layout(true);
-            $this->display('create');
-        }
+        //
     }
 }

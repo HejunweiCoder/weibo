@@ -38,7 +38,7 @@
             <br>
             <div class="tab-pane active" id="following">
                 <foreach name="posts" key="k" item="post">
-                    <div class="media" style="position: relative;">
+                    <div class="media">
                         <a href="#" class="media-left">
                             <img width="100" height="120" src="/uploads/users/1/57d97511b5028.jpg" alt="avatar">
                         </a>
@@ -57,15 +57,18 @@
                                     </div>
                                 </div>
                             </notempty>
-                            <div class="footer" style="width:80%;position: absolute;bottom: 0">
+                            <div class="footer" style="width:80%">
                                 <br>
                                 <span class="text-muted">{$post.created}</span>
                                 <span class="text-primary pull-right">赞(0) | 转播 | 评论 | 收藏</span>
                             </div>
                         </div>
+                        <hr>
                     </div>
-                    <hr>
                 </foreach>
+            </div>
+            <div class="footer text-center">
+                <p id="load_more" data-page="1" class="text-primary">加载更多...</p>
             </div>
             <div class="tab-pane" id="listeners">
                 listen
@@ -76,9 +79,20 @@
         container-right
     </div>
 </div>
-
+<script src="/vendor/js/jquery.scrollUp.js"></script>
 <script>
     $(function () {
         initPost();
+        loadMore();
+        $.scrollUp({
+            scrollName: 'scrollUp', // Element ID
+            topDistance: '300', // Distance from top before showing element (px)
+            topSpeed: 300, // Speed back to top (ms)
+            animation: 'fade', // Fade, slide, none
+            animationInSpeed: 200, // Animation in speed (ms)
+            animationOutSpeed: 200, // Animation out speed (ms)
+            scrollText: '', // Text for element
+            activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+        });
     })
 </script>
