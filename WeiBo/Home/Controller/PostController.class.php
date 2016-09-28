@@ -15,6 +15,7 @@ class PostController extends Controller
         if (cookie('auth')) {
             $this->assign('auth', cookie('auth'));
         }
+        IS_PJAX ?: layout(true);
     }
 
     public function _empty()
@@ -46,14 +47,10 @@ class PostController extends Controller
         $this->assign('posts', $posts);
         $status = count($posts) > 0 ? true : false;
         if (IS_AJAX) {
+            layout(false);
             $this->ajaxReturn(['data' => $this->fetch('posts-list'), 'status' => $status]);
         }
-        if (IS_PJAX) {
-            $this->display('index');
-        } else {
-            layout(true);
-            $this->display('index');
-        }
+        $this->display('index');
     }
 
     public function store()

@@ -101,6 +101,7 @@ function loadMore() {
 						type: 'GET',
 						data: {},
 						success: function (data) {
+							console.log(data);
 							if (data['status'] != false) {
 								$('.media').last().append(data['data'])
 							} else {

@@ -23,16 +23,7 @@ class UserController extends Controller\RestController
         } else {
             $this->redirect('/');
         }
-    }
-
-    public function post()
-    {
-        if (IS_PJAX) {
-            return $this->display('post');
-        } else {
-            layout(true);
-            return $this->display('post');
-        }
+        IS_PJAX ?: layout(true);
     }
 
     public function index()
@@ -68,9 +59,7 @@ class UserController extends Controller\RestController
         $user = D('User')->where("id=$id")->find();
         $this->assign('user', $user);
 //        $this->display('show');
-        if (array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_PJAX']) {
-            return $this->render('test');
-        }
+        return $this->display('show');
     }
 
     public function store()
