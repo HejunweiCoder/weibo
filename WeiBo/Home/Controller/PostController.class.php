@@ -25,13 +25,13 @@ class PostController extends Controller
 
     public function upload()
     {
-        $upload = new Upload();
+        $upload = new Upload(['rootPath' => UPLOAD_PATH]);
         $upload->maxSize = 410960;
         $upload->exts = ['jpg', 'png', 'jpeg', 'gif'];
         $upload->subName = ['date', 'Ymd'];
         $info = $upload->upload(I('post.file'));
         if ($info) {
-            return '/uploads/' . $info['file']['savepath'] . $info['file']['savename'];
+            return '/' . UPLOAD_PATH . $info['file']['savepath'] . $info['file']['savename'];
         } else {
             return false;
         }

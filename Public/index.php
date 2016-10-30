@@ -24,6 +24,8 @@ define('IS_AJAX', !IS_PJAX && isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtol
 //定义PUT
 define('IS_PUT', strtolower($_POST['_method']) == 'put');
 
+define('UPLOAD_PATH', 'uploads/');
+
 // 定义应用目录
 define('APP_PATH', '../WeiBo/');
 

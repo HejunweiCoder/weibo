@@ -1,103 +1,47 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <ul class="nav nav-tabs" id="mytab">
-                <li class="active">
-                    <a href="#course" data-toggle="tab">{$Think.lang.course}</a>
-                </li>
-                <li>
-                    <a href="#home" data-toggle="tab">{$Think.lang.home}</a>
-                </li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane fade in active" id="course">
-                    <p><a href="#">在规定的选课时间内改选其他合适的教学班。选的通识课程选课学生将被统一退课！<span class="pull-right">2016-7-1</span></a>
-                    </p>
-                    <p><a href="#">在规定的选课时间内改选其他合适的教学班。选课结束后，确定停课的通识课程选课学生将被统一退课！</a></p>
-                    <p><a href="#">在规定的选课时间内改选其他合适的教学班。选课结束后，确定停课的通识课程选课学生将被统一退课！</a></p>
+<div class="row">
+    <include file="partials/user-sidebar"/>
+    <div class="col-md-6">
+        <br><br>
+        <div class="container-fluid">
+            <form action="/users/{$user.id}" id="user_form" method="post" novalidate>
+                <input type="hidden" name="_method" value="put">
+                <input type="hidden" name="id" value="{$user.id}">
+                <div class="form-group">
+                    <label for="username"><i class="fa fa-user" aria-hidden="true"></i> 用户名：</label>
+                    <input type="text" readonly value="{$user.username}" class="form-control" id="username">
                 </div>
-                <div class="tab-pane fade" id="home">
-                    <p><a href="#">我的空间</a></p>
+
+                <div class="form-group">
+                    <label><i class="fa fa-angle-double-right"></i> 性别：</label>
+                    <label class="radio-inline">
+                        <input type="radio" name="gender" value="1"
+                        <if condition="$user.gender eq 1">
+                            checked
+                        </if>
+                        > <i class="fa fa-venus"></i>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="gender" value="0"
+                        <if condition="$user.gender eq 0">
+                            checked
+                        </if>
+                        > <i class="fa fa-mars"></i>
+                    </label>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="email"><i class="glyphicon glyphicon-send" aria-hidden="true"></i> 邮箱：</label>
+                    <input type="email" required id="email" name="email" value="{$user.email}" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="introduction"><i class="glyphicon glyphicon-tag" aria-hidden="true"></i> 简介：</label>
+                    <textarea id="introduction" name="introduction" class="form-control">{$user.introduction}
+                        </textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary pull-right">
+                </div>
+            </form>
         </div>
     </div>
-    <div class="row">
-        <div class="col-ma-12">
-            <ul class="breadcrumb">
-                <li><a href="#">开发语言</a></li>
-                <li><a href="#">web课程</a></li>
-                <li><a href="#" class="text-muted">黑客编程</a></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="/images/1.jpg" alt="图片">
-                <div class="caption">
-                    <h3><a href="#">{$post.title}</a></h3>
-                    <p>{$post.user.username}</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="/images/2.jpg" alt="图片">
-                <div class="caption">
-                    <h3><a href="#">bootstrap</a></h3>
-                    <p>共12课时</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="/images/2.jpg" alt="图片">
-                <div class="caption">
-                    <h3><a href="#">bootstrap</a></h3>
-                    <p>共12课时</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="/images/2.jpg" alt="图片">
-                <div class="caption">
-                    <h3><a href="#">bootstrap</a></h3>
-                    <p>共12课时</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="/images/2.jpg" alt="图片">
-                <div class="caption">
-                    <h3><a href="#">bootstrap</a></h3>
-                    <p>共12课时</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="col-md-6">
-                <div class="thumbnail">
-                    <img src="/images/2.jpg" alt="图片">
-                    <div class="caption">
-                        <h3><a href="#">bootstrap</a></h3>
-                        <p>共12课时</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="page-header">
-                    <h2>bootstrap课程介绍</h2>
-                </div>
-                <p>By hejunwei</p>
-            </div>
-        </div>
-    </div>
+    <div class="col-md-2"></div>
 </div>
-<p class="badge"><i class="glyphicon-piggy-bank"></i>hejunwei</p>
-<script>
-    $('#mytab').on('shown.bs.tab', function (e) {
-        var txt = $(e.target).text();
-        alert(txt);
-    })
-</script>

@@ -39,7 +39,7 @@
                             <li><a href="#">收到的评论</a></li>
                             <li><a href="#">发出的评论</a></li>
                             <li><a href="#">我的私信</a></li>
-                            <li><a href="/users/{$auth.id}">个人设置</a></li>
+                            <li><a href="/users/{$auth.id}/edit">个人设置</a></li>
                             <li><a href="#">系统消息</a></li>
                             <li><a href="#">发私信</a></li>
                             <li class="divider"></li>

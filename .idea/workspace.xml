@@ -2,569 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeb9eb10-0840-4186-ab7b-1df72ed25331" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeiBo/Home/View/User/avatar.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/composer.phar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/accordion_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/blank.gif" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/calendar_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/combo_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/combo_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/datagrid_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/datebox_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/layout_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/layout_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/linkbutton_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/loading.gif" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/menu_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/menu_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/messager_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/messager_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/pagination_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/pagination_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/panel_tools.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/panel_tools.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/passwordbox_close.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/passwordbox_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/passwordbox_open.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/passwordbox_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/searchbox_button.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/searchbox_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/slider_handle.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/slider_handle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/spinner_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/tabs_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/tabs_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/tree_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/tree_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/Public/css/themes/black/images/validatebox_warning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/accordion_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/blank.gif" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/calendar_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/combo_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/combo_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/datagrid_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/datebox_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/layout_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/layout_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/linkbutton_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/loading.gif" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/menu_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/menu_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/messager_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/messager_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/pagination_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/pagination_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/panel_tools.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/panel_tools.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/passwordbox_close.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/passwordbox_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/passwordbox_open.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/passwordbox_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/searchbox_button.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/searchbox_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/slider_handle.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/slider_handle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/spinner_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/tabs_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/tabs_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/tree_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/tree_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/images/validatebox_warning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/accordion_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/blank.gif" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/calendar_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/combo_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/combo_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/datagrid_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/datebox_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/layout_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/layout_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/linkbutton_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/loading.gif" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/menu_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/menu_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/messager_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/messager_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/pagination_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/pagination_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/panel_tools.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/panel_tools.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/passwordbox_close.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/passwordbox_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/passwordbox_open.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/passwordbox_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/searchbox_button.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/searchbox_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/slider_handle.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/slider_handle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/spinner_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/tabs_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/tabs_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/tree_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/tree_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/Public/css/themes/default/images/validatebox_warning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/accordion_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/blank.gif" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/calendar_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/combo_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/combo_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/datagrid_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/datebox_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/layout_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/layout_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/linkbutton_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/loading.gif" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/menu_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/menu_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/messager_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/messager_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/pagination_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/pagination_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/panel_tools.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/panel_tools.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/passwordbox_close.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/passwordbox_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/passwordbox_open.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/passwordbox_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/searchbox_button.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/searchbox_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/slider_handle.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/slider_handle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/spinner_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/tabs_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/tabs_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/tree_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/tree_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/Public/css/themes/gray/images/validatebox_warning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/back.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/back.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/blank.gif" afterPath="$PROJECT_DIR$/Public/css/themes/icons/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/cancel.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/cancel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/clear.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/clear.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/cut.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/cut.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/edit_add.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/edit_add.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/edit_remove.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/edit_remove.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/filesave.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/filesave.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/filter.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/filter.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/help.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/help.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/large_chart.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/large_chart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/large_clipart.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/large_clipart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/large_picture.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/large_picture.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/large_shapes.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/large_shapes.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/large_smartart.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/large_smartart.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/lock.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/lock.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/man.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/man.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/mini_add.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/mini_add.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/mini_edit.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/mini_edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/mini_refresh.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/mini_refresh.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/more.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/more.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/no.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/no.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/ok.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/ok.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/pencil.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/pencil.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/print.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/print.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/redo.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/redo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/reload.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/reload.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/search.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/search.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/sum.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/sum.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/tip.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/tip.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icons/undo.png" afterPath="$PROJECT_DIR$/Public/css/themes/icons/undo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/Thumbs.db" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/accordion_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/blank.gif" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/calendar_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/combo_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/combo_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/datagrid_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/datebox_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/layout_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/layout_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/linkbutton_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/loading.gif" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/menu_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/menu_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/messager_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/messager_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/pagination_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/pagination_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/panel_tools.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/panel_tools.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/passwordbox_close.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/passwordbox_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/passwordbox_open.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/passwordbox_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/searchbox_button.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/searchbox_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/slider_handle.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/slider_handle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/spinner_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/tabs_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/tabs_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/tree_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/tree_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/Public/css/themes/material/images/validatebox_warning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/accordion_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/blank.gif" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/blank.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/calendar_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/combo_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/combo_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/datagrid_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/datebox_arrow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/layout_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/layout_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/linkbutton_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/loading.gif" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/loading.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/menu_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/menu_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/messager_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/messager_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/pagination_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/pagination_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/panel_tools.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/panel_tools.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/passwordbox_close.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/passwordbox_close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/passwordbox_open.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/passwordbox_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/searchbox_button.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/searchbox_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/slider_handle.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/slider_handle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/spinner_arrows.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/tabs_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/tabs_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/tree_icons.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/tree_icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/Public/css/themes/metro/images/validatebox_warning.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/favicon.png" afterPath="$PROJECT_DIR$/Public/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/1.jpg" afterPath="$PROJECT_DIR$/Public/images/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/2.jpg" afterPath="$PROJECT_DIR$/Public/images/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/3.jpg" afterPath="$PROJECT_DIR$/Public/images/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/ali.jpg" afterPath="$PROJECT_DIR$/Public/images/ali.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/girl.jpg" afterPath="$PROJECT_DIR$/Public/images/girl.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/he.jpg" afterPath="$PROJECT_DIR$/Public/images/he.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/kate.jpg" afterPath="$PROJECT_DIR$/Public/images/kate.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/nvdao.jpg" afterPath="$PROJECT_DIR$/Public/images/nvdao.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/top.png" afterPath="$PROJECT_DIR$/Public/images/top.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/vip-icon.png" afterPath="$PROJECT_DIR$/Public/images/vip-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/images/vn.jpg" afterPath="$PROJECT_DIR$/Public/images/vn.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/Public/vendor/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/consola.ttf" afterPath="$PROJECT_DIR$/Public/vendor/fonts/consola.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/1.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/1.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/10.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/10.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/11.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/11.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/12.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/12.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/13.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/13.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/14.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/14.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/15.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/15.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/16.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/16.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/17.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/17.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/18.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/18.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/19.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/19.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/2.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/2.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/20.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/20.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/21.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/21.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/22.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/22.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/23.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/23.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/24.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/24.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/25.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/25.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/26.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/26.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/27.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/27.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/28.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/28.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/29.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/29.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/3.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/3.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/30.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/30.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/31.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/31.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/32.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/32.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/33.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/33.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/34.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/34.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/35.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/35.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/36.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/36.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/37.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/37.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/38.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/38.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/39.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/39.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/4.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/4.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/40.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/40.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/41.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/41.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/42.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/42.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/43.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/43.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/44.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/44.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/45.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/45.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/46.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/46.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/47.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/47.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/48.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/48.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/49.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/49.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/5.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/5.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/50.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/50.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/51.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/51.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/52.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/52.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/53.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/53.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/54.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/54.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/55.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/55.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/56.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/56.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/57.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/57.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/58.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/58.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/59.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/59.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/6.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/6.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/60.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/60.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/61.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/61.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/62.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/62.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/63.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/63.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/64.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/64.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/65.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/65.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/66.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/66.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/67.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/67.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/68.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/68.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/69.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/69.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/7.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/7.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/70.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/70.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/71.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/71.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/72.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/72.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/73.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/73.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/74.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/74.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/75.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/75.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/76.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/76.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/77.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/77.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/78.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/78.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/79.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/79.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/8.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/8.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/80.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/80.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/81.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/81.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/82.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/82.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/83.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/83.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/84.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/84.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/85.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/85.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/86.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/86.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/87.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/87.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/88.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/88.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/89.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/89.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/9.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/9.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/90.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/90.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/qq/91.gif" afterPath="$PROJECT_DIR$/Public/vendor/img/qq/91.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/1.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/10.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/11.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/12.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/13.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/14.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/15.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/16.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/17.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/17.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/18.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/18.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/19.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/19.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/2.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/20.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/20.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/21.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/22.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/22.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/23.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/23.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/24.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/24.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/25.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/25.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/26.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/26.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/27.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/27.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/28.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/28.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/29.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/29.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/3.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/30.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/30.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/31.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/31.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/32.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/32.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/33.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/33.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/34.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/34.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/35.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/35.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/36.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/36.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/37.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/37.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/38.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/38.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/39.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/39.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/4.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/40.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/40.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/41.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/41.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/42.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/42.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/43.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/43.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/44.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/44.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/45.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/45.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/46.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/46.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/47.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/47.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/48.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/48.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/49.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/49.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/5.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/50.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/50.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/6.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/7.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/8.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/img/tieba/9.jpg" afterPath="$PROJECT_DIR$/Public/vendor/img/tieba/9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/weibo.iml" afterPath="$PROJECT_DIR$/.idea/weibo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeiBo/Home/View/partials/user-sidebar.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WeiBo/Home/View/User/show.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/User/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/.htaccess" afterPath="$PROJECT_DIR$/Public/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/README.md" afterPath="$PROJECT_DIR$/Public/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/admin/app.css" afterPath="$PROJECT_DIR$/Public/css/admin/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/front/app.css" afterPath="$PROJECT_DIR$/Public/css/front/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/front/index.css" afterPath="$PROJECT_DIR$/Public/css/front/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/front/post.css" afterPath="$PROJECT_DIR$/Public/css/front/post.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/layouts/app.css" afterPath="$PROJECT_DIR$/Public/css/layouts/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/accordion.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/calendar.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/combo.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/combo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/combobox.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/combobox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/datagrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/datagrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/datalist.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/datalist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/datebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/datebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/dialog.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/easyui.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/easyui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/filebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/filebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/layout.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/linkbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/linkbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/menu.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/menubutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/menubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/messager.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/messager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/numberbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/numberbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/pagination.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/pagination.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/panel.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/passwordbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/passwordbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/progressbar.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/progressbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/propertygrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/propertygrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/searchbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/searchbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/slider.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/spinner.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/spinner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/splitbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/splitbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/switchbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/switchbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/tabs.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/textbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/textbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/tooltip.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/tooltip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/tree.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/tree.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/validatebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/validatebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/black/window.css" afterPath="$PROJECT_DIR$/Public/css/themes/black/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/accordion.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/calendar.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/combo.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/combo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/combobox.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/combobox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/datagrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/datagrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/datalist.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/datalist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/datebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/datebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/dialog.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/easyui.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/easyui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/filebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/filebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/layout.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/linkbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/linkbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/menu.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/menubutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/menubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/messager.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/messager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/numberbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/numberbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/pagination.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/pagination.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/panel.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/passwordbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/passwordbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/progressbar.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/progressbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/propertygrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/propertygrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/searchbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/searchbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/slider.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/spinner.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/spinner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/splitbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/splitbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/switchbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/switchbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/tabs.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/textbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/textbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/tooltip.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/tooltip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/tree.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/tree.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/validatebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/validatebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/bootstrap/window.css" afterPath="$PROJECT_DIR$/Public/css/themes/bootstrap/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/color.css" afterPath="$PROJECT_DIR$/Public/css/themes/color.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/accordion.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/calendar.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/combo.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/combo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/combobox.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/combobox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/datagrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/datagrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/datalist.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/datalist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/datebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/datebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/dialog.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/easyui.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/easyui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/filebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/filebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/layout.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/linkbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/linkbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/menu.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/menubutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/menubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/messager.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/messager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/numberbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/numberbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/pagination.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/pagination.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/panel.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/passwordbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/passwordbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/progressbar.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/progressbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/propertygrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/propertygrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/searchbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/searchbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/slider.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/spinner.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/spinner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/splitbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/splitbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/switchbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/switchbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/tabs.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/textbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/textbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/tooltip.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/tooltip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/tree.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/tree.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/validatebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/validatebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/default/window.css" afterPath="$PROJECT_DIR$/Public/css/themes/default/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/accordion.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/calendar.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/combo.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/combo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/combobox.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/combobox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/datagrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/datagrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/datalist.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/datalist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/datebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/datebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/dialog.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/easyui.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/easyui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/filebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/filebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/layout.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/linkbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/linkbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/menu.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/menubutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/menubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/messager.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/messager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/numberbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/numberbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/pagination.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/pagination.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/panel.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/passwordbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/passwordbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/progressbar.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/progressbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/propertygrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/propertygrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/searchbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/searchbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/slider.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/spinner.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/spinner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/splitbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/splitbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/switchbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/switchbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/tabs.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/textbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/textbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/tooltip.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/tooltip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/tree.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/tree.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/validatebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/validatebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/gray/window.css" afterPath="$PROJECT_DIR$/Public/css/themes/gray/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/icon.css" afterPath="$PROJECT_DIR$/Public/css/themes/icon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/accordion.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/calendar.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/combo.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/combo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/combobox.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/combobox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/datagrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/datagrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/datalist.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/datalist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/datebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/datebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/dialog.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/easyui.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/easyui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/filebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/filebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/layout.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/linkbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/linkbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/menu.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/menubutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/menubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/messager.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/messager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/numberbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/numberbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/pagination.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/pagination.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/panel.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/passwordbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/passwordbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/progressbar.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/progressbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/propertygrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/propertygrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/searchbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/searchbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/slider.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/spinner.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/spinner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/splitbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/splitbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/switchbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/switchbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/tabs.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/textbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/textbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/tooltip.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/tooltip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/tree.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/tree.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/validatebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/validatebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/material/window.css" afterPath="$PROJECT_DIR$/Public/css/themes/material/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/accordion.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/calendar.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/calendar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/combo.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/combo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/combobox.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/combobox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/datagrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/datagrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/datalist.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/datalist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/datebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/datebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/dialog.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/easyui.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/easyui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/filebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/filebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/layout.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/linkbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/linkbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/menu.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/menubutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/menubutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/messager.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/messager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/numberbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/numberbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/pagination.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/pagination.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/panel.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/panel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/passwordbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/passwordbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/progressbar.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/progressbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/propertygrid.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/propertygrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/searchbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/searchbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/slider.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/spinner.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/spinner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/splitbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/splitbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/switchbutton.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/switchbutton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/tabs.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/textbox.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/textbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/tooltip.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/tooltip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/tree.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/tree.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/validatebox.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/validatebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/metro/window.css" afterPath="$PROJECT_DIR$/Public/css/themes/metro/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/themes/mobile.css" afterPath="$PROJECT_DIR$/Public/css/themes/mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/index.php" afterPath="$PROJECT_DIR$/Public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/admin/app.js" afterPath="$PROJECT_DIR$/Public/js/admin/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/front/app.js" afterPath="$PROJECT_DIR$/Public/js/front/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/uploads/.gitignore" afterPath="$PROJECT_DIR$/Public/uploads/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Public/vendor/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Public/vendor/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/css/jquery-ui.min.css" afterPath="$PROJECT_DIR$/Public/vendor/css/jquery-ui.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/css/jquery.emoji.css" afterPath="$PROJECT_DIR$/Public/vendor/css/jquery.emoji.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/css/jquery.mCustomScrollbar.min.css" afterPath="$PROJECT_DIR$/Public/vendor/css/jquery.mCustomScrollbar.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/css/sweetalert.css" afterPath="$PROJECT_DIR$/Public/vendor/css/sweetalert.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Public/vendor/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/Public/vendor/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/additional-methods.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/additional-methods.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery.easyui.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.easyui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery.emoji.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.emoji.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery.mCustomScrollbar.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.mCustomScrollbar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery.mousewheel-3.0.6.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.mousewheel-3.0.6.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery.pjax.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.pjax.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery.scrollUp.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.scrollUp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/jquery.validate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/locale/easyui-lang-en.js" afterPath="$PROJECT_DIR$/Public/vendor/js/locale/easyui-lang-en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/locale/easyui-lang-zh_CN.js" afterPath="$PROJECT_DIR$/Public/vendor/js/locale/easyui-lang-zh_CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/messages_zh.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/messages_zh.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/sweetalert.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/sweetalert.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/vendor/js/topbar.min.js" afterPath="$PROJECT_DIR$/Public/vendor/js/topbar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Common/Conf/config.php" afterPath="$PROJECT_DIR$/WeiBo/Common/Conf/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Common/Model/PostModel.class.php" afterPath="$PROJECT_DIR$/WeiBo/Common/Model/PostModel.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js" afterPath="$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php" afterPath="$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/User/show.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/User/show.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/Post/index.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/Post/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/User/avatar.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/User/avatar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/layout.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrations/20160730100609_think.php" afterPath="$PROJECT_DIR$/db/migrations/20160730100609_think.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds/TableSeeder.php" afterPath="$PROJECT_DIR$/db/seeds/TableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php" afterPath="$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="weibo.iws" />
@@ -596,51 +50,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="414">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiBo/Common/Model/UserModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-267">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Upload.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="197" column="29" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="avatar.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="avatar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/avatar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="529">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/layout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -663,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WeiBo/Admin/View/app.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Admin/Controller/CommonAction.class.php" />
         <option value="$PROJECT_DIR$/WeiBo/Admin/Controller/CommonController.class.php" />
         <option value="$PROJECT_DIR$/WeiBo/Admin/View/Index/show.php" />
         <option value="$PROJECT_DIR$/WeiBo/Admin/View/Index/index.php" />
@@ -688,7 +130,6 @@
         <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/modal.php" />
         <option value="$PROJECT_DIR$/WeiBo/Common/Model/UserModel.class.php" />
         <option value="$PROJECT_DIR$/WeiBo/Admin/View/auth/login.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/edit.php" />
         <option value="$PROJECT_DIR$/Public/js/front/app.js" />
         <option value="$PROJECT_DIR$/Public/js/admin/app.js" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/User/post.php" />
@@ -698,22 +139,25 @@
         <option value="$PROJECT_DIR$/WeiBo/Common/assets/scss/front/post.scss" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/Post/create.php" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/Post/posts-list.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/Post/index.php" />
         <option value="$PROJECT_DIR$/WeiBo/Common/assets/scss/front/app.scss" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/footer.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/layout.php" />
         <option value="$PROJECT_DIR$/WeiBo/Common/Conf/config.php" />
-        <option value="$PROJECT_DIR$/Public/index.php" />
         <option value="$PROJECT_DIR$/db/seeds/TableSeeder.php" />
         <option value="$PROJECT_DIR$/db/migrations/20160730100609_think.php" />
         <option value="$PROJECT_DIR$/WeiBo/Home/View/User/show.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js" />
         <option value="$PROJECT_DIR$/WeiBo/Common/Common/function.php" />
         <option value="$PROJECT_DIR$/WeiBo/Common/Model/PostModel.class.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/avatar.php" />
-        <option value="$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/Post/index.php" />
+        <option value="$PROJECT_DIR$/Public/index.php" />
         <option value="$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/edit.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/partials/user-sidebar.php" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/layout.php" />
+        <option value="$PROJECT_DIR$/Public/vendor/css/jquery.Jcrop.min.css" />
+        <option value="$PROJECT_DIR$/WeiBo/Home/View/User/avatar.php" />
       </list>
     </option>
   </component>
@@ -731,6 +175,22 @@
     <option name="y" value="24" />
     <option name="width" value="1366" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -834,6 +294,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiBo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Post" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -856,7 +342,37 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiBo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -911,50 +427,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conf" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weibo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeiBo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1068,7 +540,73 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1089,8 +627,40 @@
               <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="20161030" />
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1105,23 +675,23 @@
     <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\www\weibo\Public\uploads\users\1" />
-      <recent name="D:\www\weibo\WeiBo\Home\View\post" />
-      <recent name="D:\www\weibo\WeiBo\Home\View\index" />
-      <recent name="D:\www\weibo\WeiBo\Home\View\User" />
-      <recent name="D:\www\weibo\Public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WeiBo/Home/View/User" />
       <recent name="D:\www\weibo\Public\uploads" />
       <recent name="D:\www\weibo\WeiBo\Home\View\Post" />
       <recent name="D:\www\weibo\WeiBo\Home\Controller" />
       <recent name="D:\www\weibo\Public\vendor\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Public/vendor/css" />
+      <recent name="D:\www\weibo\Public\uploads\users\1" />
+      <recent name="D:\www\weibo\WeiBo\Home\View\post" />
+      <recent name="D:\www\weibo\WeiBo\Home\View\index" />
+      <recent name="D:\www\weibo\WeiBo\Home\View\User" />
     </key>
   </component>
   <component name="RunManager">
@@ -1227,16 +797,16 @@
       <workItem from="1477217270439" duration="6918000" />
       <workItem from="1477288789315" duration="8000" />
       <workItem from="1477289879501" duration="14000" />
-      <workItem from="1477667289248" duration="19766000" />
+      <workItem from="1477667289248" duration="30519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316941000" />
+    <option name="totallyTimeSpent" value="327694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22327965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1273,55 +843,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/scss/front/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/front/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Index/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Lite/View.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Admin/View/auth/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1395,22 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/modal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2162">
@@ -1435,34 +940,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="691" column="9" selection-start-line="691" selection-start-column="9" selection-end-line="691" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/show.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1479,30 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="197" column="29" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -1547,14 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Post/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2093">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WeiBo/Common/Model/PostModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -1571,25 +1020,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/uploads20161030/58157971c7a41.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php">
@@ -1610,14 +1043,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/avatar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Common/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1626,18 +1051,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Common/Controller/AuthController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Post/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/Index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WeiBo/Common/Model/UserModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
+        <state relative-caret-position="-60">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/AuthController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Common/assets/js/front/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/PostController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/partials/user-sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/vendor/css/jquery.Jcrop.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="7" column="112" selection-start-line="7" selection-start-column="112" selection-end-line="7" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/vendor/js/jquery.Jcrop.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="689" selection-start-line="19" selection-start-column="689" selection-end-line="19" selection-end-column="689" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeiBo/Home/Controller/UserController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="414">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiBo/Home/View/User/avatar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding />
         </state>
       </provider>

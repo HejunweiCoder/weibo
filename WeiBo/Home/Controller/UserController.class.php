@@ -28,14 +28,13 @@ class UserController extends Controller\RestController
 
     private function upload()
     {
-        $rootPath = 'uploads/';//相对入口文件的位置
-        $upload = new Upload(['rootPath' => $rootPath]);//可以配置其他参数
+        $upload = new Upload(['rootPath' => UPLOAD_PATH]);//可以配置其他参数
         $upload->maxSize = 410960;//也可以这样配置
         $upload->exts = ['jpg', 'png', 'jpeg', 'gif'];
         $upload->subName = ['date', 'Ymd'];
         $info = $upload->upload(I('post.avatar'));//使用I方法拿到文件
         if ($info) {
-            return '/uploads/' . $info['avatar']['savepath'] . $info['avatar']['savename'];//向数据库返回
+            return '/' . UPLOAD_PATH . $info['avatar']['savepath'] . $info['avatar']['savename'];//向数据库返回
         } else {
             return false;
         }
