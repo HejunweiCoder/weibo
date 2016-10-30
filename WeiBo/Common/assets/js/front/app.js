@@ -31,6 +31,7 @@ function initApp() {
 	initLogin();
 	initRegister();
 
+	initUser();
 }
 
 function initPost() {
@@ -187,6 +188,28 @@ function initRegister() {
 		}
 	};
 	initForm($registerRules, $('#register_form'), $('#register_modal'), '注册成功', '注册失败');
+}
+
+function initUser() {
+	$userRules = {
+		email: {
+			remote: {
+				url: '/check-email',
+				type: 'POST',
+				beforeSend: function () {
+					$('#email-status').addClass('fa fa-refresh');
+				},
+				complete: function (jqXHR) {
+					if (jqXHR.responseText == true) {
+						$('#email-status').removeClass('fa-refresh').addClass('fa-check');
+					} else {
+						$('#email-status').removeClass('fa-refresh fa-check')
+					}
+				}
+			}
+		}
+	};
+	initForm($userRules, $('#user_form'), null, '修改成功', '修改失败');
 }
 
 function initForm($rules, $form, $modal, success, fail) {

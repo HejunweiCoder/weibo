@@ -26,6 +26,44 @@ class UserController extends Controller\RestController
         IS_PJAX ?: layout(true);
     }
 
+    private function upload()
+    {
+        $rootPath = 'uploads/';//相对入口文件的位置
+        $upload = new Upload(['rootPath' => $rootPath]);//可以配置其他参数
+        $upload->maxSize = 410960;//也可以这样配置
+        $upload->exts = ['jpg', 'png', 'jpeg', 'gif'];
+        $upload->subName = ['date', 'Ymd'];
+        $info = $upload->upload(I('post.avatar'));//使用I方法拿到文件
+        if ($info) {
+            return '/uploads/' . $info['avatar']['savepath'] . $info['avatar']['savename'];//向数据库返回
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * @return array
+     */
+    public function avatar($id)
+    {
+        $user = D('User');
+        $auth = $user->where("id=$id")->find() ?: alert_back('非法访问');
+        $auth['id'] === cookie('auth')['id'] ?: alert_back('非法访问');
+        if (IS_GET) {
+            $this->assign('user', $auth);
+            return $this->display('avatar');
+        }
+        if (IS_POST) {
+            $avatar = $this->upload() ?: alert_back('上传失败');
+            $user->avatar = $avatar;
+            if ($user->where("id=$id")->save() === 1) {
+                return $this->success('修改成功');
+            } else {
+                alert_back('修改失败');
+            }
+        }
+    }
+
     public function index()
     {
 //        redirect('https://www.baidu.com',5,'页面跳转中');
@@ -58,25 +96,35 @@ class UserController extends Controller\RestController
     {
         $user = D('User')->where("id=$id")->find();
         $this->assign('user', $user);
-//        $this->display('show');
         return $this->display('show');
     }
 
     public function store()
     {
         $user = D('User');
-        $data['username'] = 'hejunwei';
-        $data['email'] = 'hejunwei@bluestone.com';
-        $data['password'] = sha1('123456');
-        $data['created'] = date('Y-m-d H:d:s', time());
-        $data['posts'] = [
-            ['title' => 'title', 'content' => 'content'],
-        ];
-        if ($user->relation(true)->add($data)) {
-            echo 'success';
+        if (IS_PUT) {
+            $user->gender = I('post.gender');
+            $user->email = I('post.email');
+            $user->introduction = I('post.introduction');
+            if ($user->where('id=' . I('post.id'))->save() === 1) {
+                return $this->success('修改成功');
+            }
+            return redirect('/users/' . I('post.id'));
         } else {
-            dump($user->getError());
+            $data['username'] = 'hejunwei';
+            $data['email'] = 'hejunwei@bluestone.com';
+            $data['password'] = sha1('123456');
+            $data['created'] = date('Y-m-d H:d:s', time());
+            $data['posts'] = [
+                ['title' => 'title', 'content' => 'content'],
+            ];
+            if ($user->relation(true)->add($data)) {
+                echo 'success';
+            } else {
+                dump($user->getError());
+            }
         }
+
     }
 
     public function delete($id)

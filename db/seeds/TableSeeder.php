@@ -17,21 +17,23 @@ class TableSeeder extends AbstractSeed
         //users
         $faker = Faker\Factory::create();
         $users[] = [
-            'username'   => 'hejunwei',
-            'password'   => sha1(123456),
-            'email'      => 'hejunweimake@gmail.com',
-            'gender'      => '男',
-            'introduction'  => $faker->paragraph,
-            'created'    => date('Y-m-d H:i:s'),
+            'username'     => 'hejunwei',
+            'password'     => sha1(123456),
+            'email'        => 'hejunweimake@gmail.com',
+            'avatar'       => '/images/avatar.png',
+            'gender'       => 1,
+            'introduction' => $faker->paragraph,
+            'created'      => date('Y-m-d H:i:s'),
         ];
         for ($i = 0; $i < 100; $i++) {
             $users[] = [
-                'username'   => $faker->userName,
-                'password'   => sha1(123456),
-                'email'      => $faker->email,
-                'gender'      => $faker->randomElement(['男','女']),
-                'introduction'  => $faker->paragraph,
-                'created'    => date('Y-m-d H:i:s'),
+                'username'     => $faker->userName,
+                'password'     => sha1(123456),
+                'email'        => $faker->email,
+                'avatar'       => '/images/avatar.png',
+                'gender'       => $faker->randomElement([1,0]),
+                'introduction' => $faker->paragraph,
+                'created'      => date('Y-m-d H:i:s'),
             ];
         }
 
@@ -48,7 +50,7 @@ class TableSeeder extends AbstractSeed
         $posts = [];
         for ($i = 0; $i < 31; $i++) {
             $posts[] = [
-                'user_id' => $faker->numberBetween(1,50),
+                'user_id' => $faker->numberBetween(1, 50),
                 'content' => $faker->paragraph,
                 'created' => date('Y-m-d H:i:s'),
             ];

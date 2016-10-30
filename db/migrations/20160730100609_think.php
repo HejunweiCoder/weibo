@@ -28,11 +28,12 @@ class Think extends AbstractMigration
     public function change()
     {
         $users = $this->table('users');
-        $users->addColumn('username', 'string', array('limit' => 20))
+        $users->addColumn('username', 'string', array('limit' => 40))
             ->addColumn('password', 'string', array('limit' => 40))
             ->addColumn('email', 'string', array('limit' => 100))
-            ->addColumn('gender', 'enum', ['values' => ['男', '女'], 'null' => true])
-            ->addColumn('introduction', 'string')
+            ->addColumn('avatar', 'string', array('limit' => 100))
+            ->addColumn('gender', 'enum', ['values' => [0, 1], 'null' => true])
+            ->addColumn('introduction', 'string', ['limit' => 1000])
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->addIndex(array('username', 'email'), array('unique' => true))
@@ -41,7 +42,7 @@ class Think extends AbstractMigration
         $posts = $this->table('posts');
         $posts->addColumn('user_id', 'integer', array('signed' => true))
             ->addColumn('content', 'string', array('limit' => 2048))
-            ->addColumn('image_path', 'string', array('limit' => 80))
+            ->addColumn('image_path', 'string', array('null' => true, 'limit' => 80))
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->addForeignKey('user_id', 'users', 'id')

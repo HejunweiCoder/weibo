@@ -16,12 +16,14 @@ return array(
         ['code', 'Index/code', '', ['method' => 'GET']],
         ['test', 'Index/test', '', ['method' => 'GET']],
 
+        ['users/:id\d', 'User/update', '', ['method' => 'PUT']],
         ['users/:id\d/edit', 'User/edit', '', ['method' => 'GET']],
+        ['users/:id\d/avatar', 'User/avatar', '', ['method' => 'GET']],
         ['users/:id\d', 'User/show', '', ['method' => 'GET']],
         ['users/create', 'User/create', '', ['method' => 'GET']],
         ['users', 'User/index', '', ['method' => 'GET']],
-        ['users/:id\d', 'User/update', '', ['method' => 'PUT']],
         ['users/:id\d', 'User/delete', '', ['method' => 'DELETE']],
+        ['users/:id\d/avatar', 'User/avatar', '', ['method' => 'POST']],
         ['users', 'User/store', '', ['method' => 'POST']],
 
         ['posts/:id\d/edit', 'Post/edit', '', ['method' => 'GET']],
