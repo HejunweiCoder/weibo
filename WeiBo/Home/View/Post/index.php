@@ -39,7 +39,7 @@
             <div class="tab-pane active" id="following">
                 <foreach name="posts" key="k" item="post">
                     <div class="media">
-                        <a href="#" class="media-left">
+                        <a data-pjax href="/users/{$post.user.id}" class="media-left">
                             <img width="100" height="120" src="{$post.user.avatar}" alt="avatar">
                         </a>
                         <div class="media-body">
@@ -80,7 +80,7 @@
         <div>
             <img width="200" src="{$auth.avatar}" alt="avatar">
         </div>
-        <div><h3 class="text-primary">{$auth.username}</h3></div>
+        <div><a data-pjax href="/users/{$auth.id}"><h3 class="text-primary">{$auth.username}</h3></a></div>
         <div><h5 class="text-muted">{$auth.introduction}</h5></div>
     </div>
 </div>

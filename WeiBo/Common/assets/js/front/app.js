@@ -97,8 +97,10 @@ function loadMore() {
             if ($('#load_more')) {
                 setTimeout(function () {
                     $loadMoreBtn.attr('data-page', Number($loadMoreBtn.attr('data-page')) + 1);
+                    $url = '/posts/page/' + $loadMoreBtn.attr('data-page');
+                    console.log($url);
                     $.ajax({
-                        url: '/posts?page=' + $loadMoreBtn.attr('data-page'),
+                        url: $url,
                         type: 'GET',
                         data: {},
                         success: function (data) {
