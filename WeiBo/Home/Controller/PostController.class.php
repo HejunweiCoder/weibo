@@ -44,6 +44,7 @@ class PostController extends Controller
             $firstRow = (I('get.page') - 1) * 10;
         }
         $posts = D('Post')->relation(true)->order('created desc')->limit($firstRow, 10)->select();
+
         $this->assign('posts', $posts);
         $status = count($posts) > 0 ? true : false;
         if (IS_AJAX) {

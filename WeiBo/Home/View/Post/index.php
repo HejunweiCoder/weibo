@@ -75,8 +75,13 @@
             </div>
         </div>
     </div>
-    <div class="main-container-right col-lg-3">
-        container-right
+    <div class="col-lg-3 text-center">
+        <br><br>
+        <div>
+            <img width="200" src="{$auth.avatar}" alt="avatar">
+        </div>
+        <div><h3 class="text-primary">{$auth.username}</h3></div>
+        <div><h5 class="text-muted">{$auth.introduction}</h5></div>
     </div>
 </div>
 <script src="/vendor/js/jquery.scrollUp.js"></script>

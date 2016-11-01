@@ -1,7 +1,7 @@
 <foreach name="posts" key="k" item="post">
     <div class="media">
         <a href="#" class="media-left">
-            <img width="100" height="120" src="/uploads/users/1/57d97511b5028.jpg" alt="avatar">
+            <img width="100" height="120" src="{$post.user.avatar}" alt="avatar">
         </a>
         <div class="media-body">
             <h4 class="media-heading" style="font-weight: bold">{$post.user.username}</h4>

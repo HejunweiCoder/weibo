@@ -56,6 +56,7 @@ class UserController extends Controller\RestController
             $avatar = $this->upload() ?: alert_back('上传失败');
             $user->avatar = $avatar;
             if ($user->where("id=$id")->save() === 1) {
+                cookie('auth',$user);
                 return $this->success('修改成功');
             } else {
                 alert_back('修改失败');
