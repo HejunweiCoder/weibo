@@ -45,6 +45,7 @@ class UserController extends Controller\RestController
      */
     public function avatar($id)
     {
+        if($id !== cookie('auth')['id'])alert_back('非法操作');
         $user = D('User');
         $auth = $user->where("id=$id")->find() ?: alert_back('非法访问');
         $auth['id'] === cookie('auth')['id'] ?: alert_back('非法访问');
@@ -85,6 +86,7 @@ class UserController extends Controller\RestController
 
     public function edit($id)
     {
+        if($id !== cookie('auth')['id'])alert_back('非法操作');
         $user = D('User')->where("id=$id")->find();
         $post = D('Post')->relation(true)->where("id=$id")->find();
         $this->assign('user', $user);

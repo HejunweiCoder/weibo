@@ -36,7 +36,7 @@ class PostModel extends Model\RelationModel
 
     protected $_validate = [
         ['user_id','require','用户名不得小于2字符大于20字符'],
-        ['content','1,2048','微博内容不得大于280字符',self::EXISTS_VALIDATE,'length'],
+        ['content','1,100000','微博内容不得大于1000字符',self::EXISTS_VALIDATE,'length'],
     ];
 
     protected function datetime()

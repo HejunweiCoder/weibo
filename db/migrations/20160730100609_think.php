@@ -33,7 +33,7 @@ class Think extends AbstractMigration
             ->addColumn('email', 'string', array('limit' => 100))
             ->addColumn('avatar', 'string', array('limit' => 100))
             ->addColumn('gender', 'enum', ['values' => [0, 1], 'null' => true])
-            ->addColumn('introduction', 'string', ['limit' => 1000])
+            ->addColumn('introduction', 'string', ['limit' => 1000, 'null' => true])
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->addIndex(array('username', 'email'), array('unique' => true))
@@ -41,6 +41,7 @@ class Think extends AbstractMigration
 
         $posts = $this->table('posts');
         $posts->addColumn('user_id', 'integer', array('signed' => true))
+            ->addColumn('reid', 'integer', array('signed' => true,'default' => 0))
             ->addColumn('content', 'string', array('limit' => 2048))
             ->addColumn('image_path', 'string', array('null' => true, 'limit' => 80))
             ->addColumn('created', 'datetime')

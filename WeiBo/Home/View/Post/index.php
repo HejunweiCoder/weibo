@@ -44,7 +44,7 @@
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading" style="font-weight: bold">{$post.user.username}</h4>
-                            {$post.content}
+                            <div style="min-height: 60px;">{$post.content}</div>
                             <notempty name="post.image_path">
                                 <div class="row">
                                     <div class="col-md-6 img">
@@ -57,10 +57,14 @@
                                     </div>
                                 </div>
                             </notempty>
-                            <div class="footer" style="width:80%">
+                            <div class="footer">
                                 <br>
                                 <span class="text-muted">{$post.created}</span>
-                                <span class="text-primary pull-right">赞(0) | 转播 | 评论 | 收藏</span>
+                                <span class="text-primary pull-right">赞(0) | <a href="javascript:void(0)" class="re">转播</a> | 评论 | 收藏</span>
+                            </div>
+                            <div class="form-group hidden re-content">
+                                <textarea name="content" class="form-control"></textarea>
+                                <button class="pull-right btn btn-sm btn-primary">转发</button>
                             </div>
                         </div>
                         <hr>
@@ -89,6 +93,17 @@
     $(function () {
         initPost();
         loadMore();
+
+        $('.re').click(function () {
+            $re = $('.active-comment');
+            $re.removeClass('active-comment');
+            $re.hide();
+            $textarea = $(this).parent().parent().next();
+            $textarea.addClass('active-comment');
+            $textarea.removeClass('hidden');
+            $textarea.show();
+        });
+
         $.scrollUp({
             scrollName: 'scrollUp', // Element ID
             topDistance: '300', // Distance from top before showing element (px)

@@ -5,7 +5,7 @@
         <div class="list-group">
             <a data-pjax href="/users/{$user.id}/edit" class="list-group-item">个人设置</a>
             <a data-pjax href="/users/{$user.id}/avatar" class="list-group-item">头像设置</a>
-            <a class="list-group-item">Morbi leo risus</a>
+            <a data-pjax href="#" class="list-group-item">修改密码</a>
         </div>
     </div>
 </div>

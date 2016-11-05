@@ -1,4 +1,4 @@
-<nav class="nav navbar-inverse navbar-fixed-top" id="navbar" role="navigation" style="padding:0 20px 0 0;opacity: 0.85">
+<nav class="nav navbar-inverse navbar-fixed-top" id="navbar" role="navigation" style="padding:0 20px 0 0;opacity: 0.95">
     <div class="container-fluid">
         <div class="navbar-header">
             <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">

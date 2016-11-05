@@ -44,6 +44,7 @@ class AuthController extends Controller
         if(IS_AJAX){
             $data = [
                 'username' => I('post.username'),
+                'avatar'=>'/images/avatar.png',
                 'email' => I('post.email'),
                 'password' => I('post.password'),
             ];

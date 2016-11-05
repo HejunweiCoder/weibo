@@ -63,6 +63,11 @@ class PostController extends Controller
         }
         $data['user_id'] = $user['id'];
         $data['content'] = $_POST['post'];
+        $pattern = '/@(\S+)\s/i';
+        if(preg_match($pattern,$data['content'],$getMatch)){
+            $getUser = D('User')->where('username = "'.$getMatch[1].'"')->find();
+            $data['content'] = preg_replace($pattern, '<a href="/users/'.$getUser['id'].'" target="_black">@$1</a> ', $data['content']);
+        }
         $post = D('Post');
 //        $this->upload();
         if ($post->create($data)) {
