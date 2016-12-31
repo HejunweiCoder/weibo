@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HejunweiCoder/weibo.git"
+    "url": "git+https://github.com/horan-geeker/weibo.git"
   },
-  "author": "",
+  "author": "horan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HejunweiCoder/weibo/issues"
+    "url": "https://github.com/horan-geeker/weibo/issues"
   },
-  "homepage": "https://github.com/HejunweiCoder/weibo#readme",
+  "homepage": "https://github.com/horan-geeker/weibo#readme",
   "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",

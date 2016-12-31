@@ -22,7 +22,7 @@ define('IS_PJAX', array_key_exists('HTTP_X_PJAX', $_SERVER) && $_SERVER['HTTP_X_
 //定义ajax
 define('IS_AJAX', !IS_PJAX && isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest');
 //定义PUT
-define('IS_PUT', strtolower($_POST['_method']) == 'put');
+define('IS_PUT', strtolower(isset($_POST['_method'])?$_POST['_method']:null) == 'put');
 
 define('UPLOAD_PATH', 'uploads/');
 

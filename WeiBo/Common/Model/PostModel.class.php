@@ -20,6 +20,12 @@ class PostModel extends Model\RelationModel
             'foreign_key'=>'user_id',
         ],
 
+        'comments' => [
+            'class_name'=>'Comment',
+            'mapping_type'=>self::HAS_MANY,
+            'foreign_key'=>'post_id',
+        ],
+
         'tags' => [
             'class_name'=>'Tag',
             'mapping_type'=>self::MANY_TO_MANY,

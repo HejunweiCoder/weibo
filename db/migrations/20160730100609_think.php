@@ -41,12 +41,23 @@ class Think extends AbstractMigration
 
         $posts = $this->table('posts');
         $posts->addColumn('user_id', 'integer', array('signed' => true))
-            ->addColumn('reid', 'integer', array('signed' => true,'default' => 0))
+            ->addColumn('reid', 'integer', array('signed' => true, 'default' => 0))
             ->addColumn('content', 'string', array('limit' => 2048))
             ->addColumn('image_path', 'string', array('null' => true, 'limit' => 80))
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime', array('null' => true))
             ->addForeignKey('user_id', 'users', 'id')
+            ->create();
+
+        $posts = $this->table('comments');
+        $posts->addColumn('user_id', 'integer', array('signed' => true))
+            ->addColumn('post_id', 'integer', array('signed' => true))
+            ->addColumn('content', 'string', array('limit' => 2048))
+            ->addColumn('ip', 'string', array('null' => true))
+            ->addColumn('created', 'datetime')
+            ->addColumn('updated', 'datetime', array('null' => true))
+            ->addForeignKey('user_id', 'users', 'id')
+            ->addForeignKey('post_id', 'posts', 'id')
             ->create();
 
         $tags = $this->table('tags');

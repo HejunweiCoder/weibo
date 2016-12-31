@@ -44,7 +44,6 @@ class PostController extends Controller
             $firstRow = (I('get.page') - 1) * 10;
         }
         $posts = D('Post')->relation(true)->order('created desc')->limit($firstRow, 10)->select();
-
         $this->assign('posts', $posts);
         $status = count($posts) > 0 ? true : false;
         if (IS_AJAX) {
@@ -63,10 +62,13 @@ class PostController extends Controller
         }
         $data['user_id'] = $user['id'];
         $data['content'] = $_POST['post'];
+        //匹配 @姓名+空格 的格式
         $pattern = '/@(\S+)\s/i';
         if(preg_match($pattern,$data['content'],$getMatch)){
             $getUser = D('User')->where('username = "'.$getMatch[1].'"')->find();
-            $data['content'] = preg_replace($pattern, '<a href="/users/'.$getUser['id'].'" target="_black">@$1</a> ', $data['content']);
+            if($getUser){
+                $data['content'] = preg_replace($pattern, '<a href="/users/'.$getUser['id'].'" target="_black">@$1</a> ', $data['content']);
+            }
         }
         $post = D('Post');
 //        $this->upload();

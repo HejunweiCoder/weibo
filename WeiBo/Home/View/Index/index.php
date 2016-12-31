@@ -54,7 +54,7 @@
 
 <div class="container-padding text-center introduction">
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-md-4">
             <div class="pic-container">
                 <img class="img-circle" src="/images/1.jpg" alt="Generic placeholder image" width="140"
                      height="140">
@@ -64,8 +64,8 @@
                 vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
                 cursus magna.</p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
             <div class="pic-container">
                 <img class="img-circle" src="/images/ali.jpg" alt="Generic placeholder image" width="140"
                      height="140">
@@ -75,8 +75,8 @@
                 mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris
                 condimentum nibh.</p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
             <div class="pic-container">
                 <img class="img-circle" src="/images/he.jpg" alt="Generic placeholder image" width="140"
                      height="140">
